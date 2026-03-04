@@ -12,7 +12,7 @@ tags:
 Deepfake é a criação de mídia sintética (vídeo ou áudio) manipulada por inteligência artificial para alterar a identidade, as ações ou o discurso de um indivíduo, criando falsificações hiper-realistas.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** Utiliza redes neurais profundas (geralmente GANs - Generative Adversarial Networks) para estudar milhares de amostras de voz ou imagem de um alvo, sintetizando e sobrepondo esses padrões sobre um ator ou áudio base em tempo real.
+- **Como Funciona:** Utiliza redes neurais profundas (geralmente [[Cyber_GANs|GANs]] - Generative Adversarial Networks) para estudar milhares de amostras de voz ou imagem de um alvo, sintetizando e sobrepondo esses padrões sobre um ator ou áudio base em tempo real.
 - **O Problema que Resolve:** Para o atacante, resolve o obstáculo da verificação biométrica e da confiança visual/auditiva inata do ser humano, escalando a [[Cyber_Engenharia_Social]] a um nível quase infalível.
 - **Visão Sênior (Vulnerabilidades/Escala):** A detecção exige análise em nível de frame de artefatos visuais (inconsistência na iluminação, ausência de piscar de olhos) ou síntese vocal. A ameaça atual mais brutal é a extração de áudio via [[Cyber_OSINT]] de redes sociais para clonar a voz de um CEO, permitindo ordens fraudulentas de transferência financeira. Nenhuma ferramenta técnica tradicional barra um golpe de áudio perfeito.
 

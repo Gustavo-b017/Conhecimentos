@@ -15,12 +15,12 @@ Ela provavelmente não esta prestando atenção em vc quando a abordar, por isso
 
 #### Como fazer uma Pré abordagem:
 
-* Simplesmente diga um  'oi', ou qualquer coisa que a chame atenção, com confiança e uma [[boa postura]].
-* Use técnicas de linguagem corporal
+* Simplesmente diga um  'oi', ou qualquer coisa que a chame atenção, com confiança e uma [[Comportamento_Linguagem_Corporal|boa postura]].
+* Use técnicas de linguagem corporal ([[Comportamento_Linguagem_Corporal]])
 	* Livros uteis: 
 		* [[00. Desvendando os segredos da linguagem corporal - Allan e Barbara Pease]]
 		* [[Como fazer amigos e influenciar pessoas - Dale Carnegie]]
 
 Pois isso vai tirar ela da imaginação e colocar o enfoque dela em vc.
 
-Só depois disso vamos seguir para a [[Abordagem]] de fato.
+Só depois disso vamos seguir para a [[Social_Abordagem|Abordagem]] de fato.

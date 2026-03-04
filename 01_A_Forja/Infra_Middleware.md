@@ -20,7 +20,7 @@ tags:
 O Middleware é a **Cabine de Tradução Simultânea da ONU**. O diplomata japonês não tenta falar alemão e nem precisa saber onde o representante da Alemanha está sentado. Ele apenas fala em japonês no microfone (O Sistema A publica a mensagem). A cabine de tradução (O Middleware) processa, converte o áudio para alemão e envia para o fone de ouvido correto. Se o diplomata alemão for ao banheiro, a cabine guarda a mensagem e a repete quando ele voltar (Fila Assíncrona).
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-A infraestrutura em código. Uma declaração YAML do Spring Boot terceirizando a comunicação entre microsserviços para um middleware clássico de fila (RabbitMQ):
+A infraestrutura em código. Uma declaração YAML do [[Java_SpringDataJPA|Spring Boot]] terceirizando a comunicação entre [[Java_Rest_Controller|microsserviços]] para um middleware clássico de fila (RabbitMQ):
 ```yaml
 spring:
   rabbitmq:

@@ -17,10 +17,10 @@ tags:
 *   **Visão Sênior (Vulnerabilidades/Escala):** O calcanhar de Aquiles do UAC é a psicologia. Foi apelidado de "Fadiga de Clique". Se o sistema grita a cada 5 minutos, o usuário entra em transe e clica em "Sim" para absolutamente tudo de forma instintiva. Além disso, hackers exploram binários nativos de "Auto-Elevação" da própria Microsoft (UAC Bypass) para forçar o sistema a dar privilégios máximos aos vírus sem que a caixa de aviso apareça para o usuário.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O [[Cyber_UAC]] é **o gerente de banco precisando girar a chave do caixa**. O funcionário do caixa (o Usuário Padrão) pode receber depósitos e pagar contas normais de forma livre e autônoma. Porém, se alguém tenta sacar 1 Milhão de Reais (Uma alteração de sistema), o teclado trava. O caixa precisa chamar o Gerente (O Prompt do UAC), que vai até lá fisicamente, analisa a transação, digita a senha master dele e libera aquela execução específica, retornando o caixa ao status de restrição logo em seguida.
+O [[Cyber_UAC_User_Account_Control|UAC]] é **o gerente de banco precisando girar a chave do caixa**. O funcionário do caixa (o Usuário Padrão) pode receber depósitos e pagar contas normais de forma livre e autônoma. Porém, se alguém tenta sacar 1 Milhão de Reais (Uma alteração de sistema), o teclado trava. O caixa precisa chamar o Gerente (O Prompt do UAC), que vai até lá fisicamente, analisa a transação, digita a senha master dele e libera aquela execução específica, retornando o caixa ao status de restrição logo em seguida.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-Profissionais de segurança não configuram o UAC clicando em painéis. Em escalas corporativas, as Políticas Locais (Local Policies Security Options) listadas no material da FIAP são injetadas em milhares de máquinas simultaneamente via Intune ou Active Directory:
+Profissionais de segurança não configuram o UAC clicando em painéis. Em escalas corporativas, as Políticas Locais (Local Policies Security Options) listadas no material da FIAP são injetadas em milhares de máquinas simultaneamente via [[Ferramenta_Microsoft_Intune|Intune]] ou Active Directory:
 ```powershell
 # Script em PowerShell manipulando o Registro para forçar o UAC a pedir a senha administrativa sempre (evitando o simples clique no "Sim")
 Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" -Name "ConsentPromptBehaviorAdmin" -Value 1

@@ -20,7 +20,7 @@ tags:
 A diferença entre a Entidade de domínio e um [[Design_Value_Object]] é a **Diferença entre a Monalisa de Da Vinci e uma Nota de 100 Reais**. A Monalisa é uma Entidade: só existe uma, ela tem um código único (ID). Se alguém pichar o rosto dela, o valor sofre mutação, mas ela continua sendo aquele quadro específico. Já a nota de 100 reais é um Objeto de Valor: não me importa o número de série dela, se eu der 100 reais ao caixa e ele me devolver outra nota diferente de 100 reais do caixa dele, o valor é absolutamente o mesmo e a igualdade estrutural está garantida, além de eu não poder mudar o valor dessa nota a caneta (imutabilidade).
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-A fundação de um VO implementado para o Spring Data JPA via `@Embeddable` agrupa as validações que o banco não suporta estruturalmente, para ser "embutido" posteriormente na Entidade principal:
+A fundação de um VO implementado para o [[Java_SpringDataJPA|Spring Data JPA]] via `@Embeddable` agrupa as validações que o banco não suporta estruturalmente, para ser "embutido" posteriormente na Entidade principal:
 ```java
 @Embeddable
 public class DocumentoCPF {

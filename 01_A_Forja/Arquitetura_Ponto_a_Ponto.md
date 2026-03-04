@@ -34,4 +34,4 @@ EOF
 
 5. História do Conteúdo
 
-Antes do boom da Internet e da padronização do XML/JSON, os sistemas corporativos operavam como feudos isolados e surdos. A única "língua universal" possível na década de 1980 e início dos anos 90 era o texto plano separado por vírgulas. A dor extrema de gerenciar a quebra constante dessas integrações noturnas forçou o mercado a inventar, anos depois, os middlewares e o modelo [[Arquitetura_SOA]].
+Antes do boom da Internet e da padronização do [[DB_XML|XML]]/[[Front_JSON|JSON]], os sistemas corporativos operavam como feudos isolados e surdos. A única "língua universal" possível na década de 1980 e início dos anos 90 era o texto plano separado por vírgulas. A dor extrema de gerenciar a quebra constante dessas integrações noturnas forçou o mercado a inventar, anos depois, os middlewares e o modelo [[Arquitetura_SOA|SOA]].

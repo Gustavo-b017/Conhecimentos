@@ -11,7 +11,7 @@ tags:
 **O que é:** O *Distributed Denial of Service* (DDoS) é um ataque cibernético que visa tornar um serviço, rede ou servidor indisponível para o tráfego legítimo, sobrecarregando os recursos da vítima com uma inundação massiva de dados falsos de múltiplas origens.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** O ataque opera em diferentes camadas. Pode atacar a Camada 4 com *SYN Floods* para esgotar a memória de portas abertas em um servidor (half-open attack). Também pode abusar da falta de estado do [[Rede_UDP]] na Camada 3/4, forjando o IP da vítima e pedindo dados para servidores externos (como DNS ou NTP), que enviam respostas gigantescas de volta para a vítima (Ataque de Amplificação e Reflexão).
+*   **Como Funciona:** O ataque opera em diferentes camadas. Pode atacar a Camada 4 com *[[Cyber_Ataque_DDoS_SYN_Flood|SYN Floods]]* para esgotar a memória de portas abertas em um servidor (half-open attack). Também pode abusar da falta de estado do [[Rede_UDP]] na Camada 3/4, forjando o IP da vítima e pedindo dados para servidores externos (como DNS ou NTP), que enviam respostas gigantescas de volta para a vítima (Ataque de Amplificação e Reflexão).
 *   **O Problema que Causa:** Fere fatalmente o pilar da Disponibilidade da Tríade de Segurança (CID), causando indisponibilidade de serviços web e prejuízos financeiros massivos.
 *   **Visão Sênior (Vulnerabilidades/Escala):** Atacantes modernos raramente usam as próprias máquinas; eles controlam *Botnets* gigantescas compostas por dispositivos de IoT infectados (como a botnet Mirai) para gerar tráfego. A mitigação local via firewall corporativo é inútil contra ataques volumétricos; exige-se a filtragem e dispersão na nuvem com provedores como a Cloudflare.
 

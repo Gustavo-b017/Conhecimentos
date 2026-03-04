@@ -13,7 +13,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Em vez do administrador de TI ir de mesa em mesa para configurar firewalls ou instalar antivírus, a máquina do funcionário comunica-se com a nuvem da Microsoft. O administrador cria um "Perfil de Configuração" no Intune e o injeta simultaneamente em todas as máquinas associadas ao domínio da empresa.
-* **O Problema que Causa:** O trabalho remoto assassinou a [[Rede_LAN]] corporativa. O Intune permite garantir o cumprimento (Compliance) das políticas de segurança em computadores que estão fisicamente na casa dos funcionários, em Wi-Fis de padarias, sem precisarem necessariamente estar fechados numa [[Rede_VPN]].
+* **O Problema que Resolve:** O trabalho remoto assassinou a [[Rede_LAN]] corporativa. O Intune permite garantir o cumprimento (Compliance) das políticas de segurança em computadores que estão fisicamente na casa dos funcionários, em Wi-Fis de padarias, sem precisarem necessariamente estar fechados numa [[Cyber_VPN_Mecanica]].
 *   **Visão Sênior (Vulnerabilidades/Escala):** Como o Intune governa o sistema operacional inteiro (sendo capaz de forçar limpezas de disco remotas - *Wipe*), se um invasor conseguir comprometer as credenciais do Administrador Global do Intune (falta de [[Cyber_MFA]]), ele essencialmente se torna o "deus" da empresa, podendo injetar [[Cyber_Malware_Ransomware]] oficialmente em todos os computadores da organização como se fosse uma atualização legítima.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

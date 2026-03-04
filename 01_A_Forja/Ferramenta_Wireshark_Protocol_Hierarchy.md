@@ -9,10 +9,10 @@ tags:
 ### Ferramenta_Wireshark_Protocol_Hierarchy
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** A Hierarquia de Protocolos (Protocol Hierarchy) é o módulo estatístico macroscópico do Wireshark que exibe a distribuição percentual de todos os protocolos identificados em uma captura de rede, organizados em uma árvore lógica.
+**O que é:** A Hierarquia de Protocolos (Protocol Hierarchy) é o módulo estatístico macroscópico do [[Ferramenta_Wireshark|Wireshark]] que exibe a distribuição percentual de todos os protocolos identificados em uma captura de rede, organizados em uma árvore lógica.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Em vez de listar os pacotes na ordem em que chegaram, o Wireshark compila os dados e os agrupa por encapsulamento (ex: `Ethernet -> IPv4 -> TCP -> HTTP`). Ele mostra quantos pacotes (Packets) e qual o volume de banda (Bytes) cada protocolo consumiu.
+*   **Como Funciona:** Em vez de listar os pacotes na ordem em que chegaram, o Wireshark compila os dados e os agrupa por encapsulamento (ex: `Ethernet -> [[Rede_IP|IPv4]] -> [[Rede_TCP|TCP]] -> [[Rede_HTTP|HTTP]]`). Ele mostra quantos pacotes (Packets) e qual o volume de banda (Bytes) cada protocolo consumiu.
 *   **O Problema que Resolve:** Resolve a "cegueira do volume". Analisar manualmente 1 milhão de pacotes para descobrir o que está acontecendo na rede é humanamente impossível. Esta ferramenta permite atestar em 2 segundos se a rede está sofrendo um pico anômalo de tráfego DNS ou de vídeo.
 *   **Visão Sênior (Vulnerabilidades/Escala):** Se um atacante estiver extraindo dados do banco de dados disfarçando o tráfego dentro de requisições DNS (DNS Tunneling), a aba de hierarquia vai dedurar que a proporção de tráfego DNS da rede subiu de 1% para 40% do volume total. A falha é que a ferramenta confia cegamente nos cabeçalhos; se o tráfego estiver duplamente criptografado e rodando em portas não padrão, ele cairá no genérico "Data".
 

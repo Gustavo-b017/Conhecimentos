@@ -11,10 +11,14 @@
             "id": "15229fb4d8783142",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "00_Captura_e_Caos/Cyber.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber"
             }
           }
         ]
@@ -163,8 +167,10 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "3572b94ed3812db6",
+  "active": "15229fb4d8783142",
   "lastOpenFiles": [
+    "00_Captura_e_Caos/Cyber.md",
+    "01_A_Forja/Cyber_Ataque_XSS.md",
     "01_A_Forja/Rede_Digital_Twins_Emulation.md",
     "01_A_Forja/Rede_Streaming_Telemetry.md",
     "01_A_Forja/Rede_NetDevOps_CICD.md",
@@ -191,8 +197,6 @@
     "01_A_Forja/Rede_DWDM_e_ROADM.md",
     "Java_Rest_Controller.md",
     "01_A_Forja/Java_Rest_Controller.md",
-    "01_A_Forja/Rede_SAN.md",
-    "01_A_Forja/Rede_QoS.md",
     "02_Constelacoes/MOC A Ponte FIAP - Do Acadêmico ao Abismo Sênior",
     "refatorar_zettelkasten.py",
     "99_Arquivo_Morto/42--FRASES--IRRESISTÍVEIS--_20241003_093551_0000.pdf",

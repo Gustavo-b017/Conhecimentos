@@ -12,7 +12,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Em vez de olhar cada pacote como um evento isolado, ele mantém uma "Tabela de Estado" na memória RAM. Se uma máquina interna solicita um site, o firewall anota a conexão. Quando a resposta do site tenta entrar, o firewall checa a tabela, vê que a resposta faz parte de uma conexão estabelecida previamente e a deixa passar.
-*   **O Problema que Resolve:** Extingue a vulnerabilidade primária dos firewalls mais antigos (Stateless/Packet Filter), que exigiam que o administrador deixasse um número enorme de portas permanentemente abertas para receber tráfego de retorno, o que funcionava como uma porta destrancada para ataques.
+*   **O Problema que Resolve:** Extingue a vulnerabilidade primária dos firewalls mais antigos (Stateless/[[Cyber_Firewall_PacketFilter|Packet Filter]]), que exigiam que o administrador deixasse um número enorme de portas permanentemente abertas para receber tráfego de retorno, o que funcionava como uma porta destrancada para ataques.
 *   **Visão Sênior (Vulnerabilidades/Escala):** Como ele precisa registrar cada conexão na memória, a sua vulnerabilidade inerente é matemática. Em um ataque de *SYN Flood* (onde milhares de falsos pedidos de início de conexão são disparados simultaneamente), a tabela de estado enche, a memória RAM esgota, e o equipamento trava ou começa a descartar conexões legítimas ativas.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

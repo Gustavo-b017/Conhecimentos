@@ -12,8 +12,8 @@ tags:
 **O que é:** O Spoofing é a falsificação deliberada de uma identidade técnica, mascarando a origem de uma comunicação de rede para se passar por um sistema, dispositivo ou usuário legítimo e confiável.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** O atacante adultera cabeçalhos não autenticados na base do protocolo. Ele pode forjar endereços IP (IP Spoofing), MAC addresses na rede local, ou registros de nomes (DNS Spoofing) para enganar os roteadores e vítimas.
-- **O Problema que Resolve:** Para o atacante, resolve o bloqueio imposto por listas de controle de acesso (ACLs) do [[Rede_Firewall]] e facilita o redirecionamento de tráfego sem disparar alarmes primários.
+- **Como Funciona:** O atacante adultera cabeçalhos não autenticados na base do protocolo. Ele pode forjar endereços IP ([[Rede_IP|IP Spoofing]]), MAC addresses na rede local, ou registros de nomes ([[Rede_DNS|DNS Spoofing]]) para enganar os roteadores e vítimas.
+- **O Problema que Resolve:** Para o atacante, resolve o bloqueio imposto por listas de controle de acesso (ACLs) do [[Rede_Firewall]] (ou [[Cyber_Firewall_PacketFilter]]) e facilita o redirecionamento de tráfego sem disparar alarmes primários.
 - **Visão Sênior (Vulnerabilidades/Escala):** A culpa do Spoofing é do design estúpido dos protocolos dos anos 1970, que baseavam tudo em "confiança mútua". A única mitigação real para ataques de falsificação de IP e ARP são controles passivos rígidos na infraestrutura (como Ingress Filtering - BCP38) ou criptografia ponta a ponta para inutilizar o dado roubado.
 
 #### 3. As Sinapses (Conexões Livres)
@@ -28,4 +28,4 @@ sudo iptables -A INPUT -i eth0 -s 192.168.1.0/24 -j DROP
 
 5. História do Conteúdo
 
-Historicamente, o termo surgiu nas fraudes de telecomunicações analógicas (Phreaking) nas décadas de 70 e 80, onde invasores usavam apitos para simular as frequências de moedas nos telefones públicos. Com o nascimento da internet, o termo foi herdado para descrever a adulteração cega de pacotes.
+Historicamente, o termo surgiu nas fraudes de telecomunicações analógicas ([[Cyber_Vishing|Phreaking]]) nas décadas de 70 e 80, onde invasores usavam apitos para simular as frequências de moedas nos telefones públicos. Com o nascimento da internet, o termo foi herdado para descrever a adulteração cega de pacotes.

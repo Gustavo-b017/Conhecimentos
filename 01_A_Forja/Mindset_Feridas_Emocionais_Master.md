@@ -22,7 +22,11 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 #### Traço tóxico:
 * Evita completamente o afeto
 * Busca excessiva pelo prazer
-* Vicio em sensações#### Maior busca:
+* Vicio em sensações
+
+---
+
+#### Maior busca:
 * Equilíbrio
 * Justiça
 * Reconhecimento
@@ -40,7 +44,11 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 * Não pede por ajuda
 * Prefere fazer tudo sozinha para não incomodar ( acaba se se auto injustiçado )
 * Define seu valor na utilidade que tem
-* Manipula os outras fazendo demais por elas#### Maior busca:
+* Manipula os outras fazendo demais por elas
+
+---
+
+#### Maior busca:
 * Se sentir **visto**
 * Se sentir **aceito** 
 * Se sentir **amado**
@@ -57,7 +65,11 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 
 #### Traço tóxico:
 * Dependência de validação externa
-* Apego evitativo ( se fecha ou se afasta sem dizer nada quando não se sente amado como gostaria)#### Maior busca:
+* Apego evitativo ( se fecha ou se afasta sem dizer nada quando não se sente amado como gostaria)
+
+---
+
+#### Maior busca:
 * Confiança
 * Lealdade
 

@@ -13,17 +13,17 @@ tags:
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** É uma fórmula condicional. A equação exige as duas variáveis: Risco = Probabilidade (Ameaça interagindo com Vulnerabilidade) × Impacto. Se o impacto for nulo ou a ameaça for inexistente, a equação resulta em risco zero.
 *   **O Problema que Resolve:** Traduz o caos técnico (bits e bytes) para a linguagem corporativa (dinheiro e reputação). O cálculo de risco permite que diretores aloquem orçamentos limitados cirurgicamente nos ativos que podem quebrar a empresa, e ignorem o resto.
-*   **Visão Sênior (Vulnerabilidades/Escala):** O maior viés técnico é a crença de que o Risco pode ser zerado. Profissionais seniores sabem que o risco só possui quatro tratativas válidas: Mitigar (reduzir com [[Cyber_Firewall]]/políticas), Transferir (comprar um seguro cibernético), Aceitar (o custo da correção é maior que o dado perdido) ou Evitar (desligar o sistema). O abismo da gestão acontece quando o C-Level "Aceita" o risco de forma cega, apenas para não pagar a licença do software de defesa.
+*   **Visão Sênior (Vulnerabilidades/Escala):** O maior viés técnico é a crença de que o Risco pode ser zerado. Profissionais seniores sabem que o risco só possui quatro tratativas válidas: Mitigar (reduzir com [[Cyber_Firewall]]/políticas), Transferir (comprar um seguro cibernético contra [[Cyber_Malware_Ransomware|Ransomware]]), Aceitar (o custo da correção é maior que o dado perdido) ou Evitar (desligar o sistema). O abismo da gestão acontece quando o C-Level "Aceita" o risco de forma cega, apenas para não pagar a licença do software de defesa.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
 Na navegação marítima e logística global, a gestão de [[Cyber_Risco]] é absoluta. O calado do navio conter rachaduras microscópicas é a [[Cyber_Vulnerabilidade]]. A iminência de um furacão de categoria 5 na rota é a [[Cyber_Ameaca]]. O Risco é a sobreposição: "Qual a chance percentual de a rachadura ceder com a força do furacão e afundar a carga de US$ 50 Milhões (o impacto)?" Sem essa equação clara, o capitão é considerado suicida ou lunático por sair do porto.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-A avaliação de risco no terminal é baseada em calculadoras padrão de mercado, como o CVSS (Common Vulnerability Scoring System). Exemplo purista em Python para calcular o risco operacional de um servidor web desatualizado:
+A avaliação de risco no terminal é baseada em calculadoras padrão de mercado, como o CVSS ([[Cyber_Vulnerabilidade|Common Vulnerability Scoring System]]). Exemplo purista em Python para calcular o risco operacional de um servidor web desatualizado:
 ```python
 # Equação simples de decisão baseada em Risco Quantitativo
 impacto_financeiro_potencial = 8.5  # Escala 0 a 10 (ex: roubo de banco de dados central)
-probabilidade_de_exploracao = 0.7   # 70% de chance devido à falta de MFA
+probabilidade_de_exploracao = 0.7   # 70% de chance devido à falta de [[Cyber_MFA|MFA]]
 
 risco_calculado = impacto_financeiro_potencial * probabilidade_de_exploracao
 

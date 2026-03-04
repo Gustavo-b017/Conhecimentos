@@ -12,10 +12,10 @@ tags:
 **O que é:** O Data Transfer Object (DTO) é um padrão de design que dita o uso de objetos puros (POJOs), desprovidos de inteligência de negócio, usados exclusivamente para transportar blocos de dados de forma segura e rápida através de fronteiras de rede ou de camadas de aplicação.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Em vez de retornar a Entidade inteira do Banco de Dados para o usuário via API REST, você mapeia apenas os campos necessários dessa Entidade para um DTO de Resposta (ex: esconde a senha, mostra o nome). No sentido inverso (Request), o DTO atua como uma barreira de entrada antes do dado cru chegar ao sistema.
+*   **Como Funciona:** Em vez de retornar a Entidade inteira do Banco de Dados para o usuário via [[Arquitetura_REST|API REST]], você mapeia apenas os campos necessários dessa Entidade para um DTO de Resposta (ex: esconde a senha, mostra o nome). No sentido inverso (Request), o DTO atua como uma barreira de entrada antes do dado cru chegar ao sistema.
 *   **O Problema que Resolve:** Impede dois problemas letais corporativos:
     1.  *Over-fetching:* Trafegar dados demais pela rede (ex: retornar a foto inteira em base64 num endpoint de listagem de nomes).
-    2.  *Mass Assignment:* Um atacante intercepta o JSON do Frontend, insere o campo malicioso `"admin": true` no meio, e como a sua API recebe a Entidade direto no banco, ele sobrescreve a tabela interna ganhando acesso. O DTO barra campos não esperados.
+    2.  *Mass Assignment:* Um atacante intercepta o [[Front_JSON|JSON]] do Frontend, insere o campo malicioso `"admin": true` no meio, e como a sua API recebe a Entidade direto no banco, ele sobrescreve a tabela interna ganhando acesso. O DTO barra campos não esperados.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A complexidade não está no objeto, está na "tradução". Converter 100 mil Entidades para 100 mil DTOs através de código manual com "getters" e "setters" cria gargalo de CPU. Bibliotecas de reflexão ou mapeamento automático (como o ModelMapper em Java) são estritamente necessárias para compilar esse mapeamento em tempo de build, economizando processamento e código sujo.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

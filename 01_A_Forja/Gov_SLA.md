@@ -17,7 +17,7 @@ tags:
 - **Visão Sênior (Vulnerabilidades/Escala):** A armadilha financeira do SLA são os "Nove Noves". Garantir 99,9% permite ~43 minutos de queda por mês. Garantir 99,999% (5 noves) permite apenas 26 segundos de queda. Passar de 3 para 5 noves não custa o dobro, custa 100 vezes mais, obrigando a adoção de data centers espelhados geograficamente e a eliminação de qualquer [[Infra_SPOF]].
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O SLA é o **"Entregamos sua pizza em 30 minutos ou ela sai de graça"**. Não é uma promessa de marketing, é uma balança de risco atrelada a uma penalidade financeira real. Se a pizzaria (A Cloud) assina isso, o arquiteto deles é obrigado a comprar motos mais rápidas (Load Balancers) e ter cozinheiros extras ([[Rede_Redundancia]]). Se o motoboy chegar em 31 minutos, a multa é executada sem negociação.
+O SLA é o **"Entregamos sua pizza em 30 minutos ou ela sai de graça"**. Não é uma promessa de marketing, é uma balança de risco atrelada a uma penalidade financeira real. Se a pizzaria (A Cloud) assina isso, o arquiteto deles é obrigado a comprar motos mais rápidas (ferramentas de [[Ferramenta_Nginx|Load Balancing]]) e ter cozinheiros extras ([[Rede_Redundancia]]). Se o motoboy chegar em 31 minutos, a multa é executada sem negociação.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 O SLA de negócio dita a arquitetura do código. Se o contrato exige que a API responda em 500ms, injetamos padrões de *Timeout* e *Circuit Breaker* no código Java para cortar a conexão no limite, evitando a violação do acordo:

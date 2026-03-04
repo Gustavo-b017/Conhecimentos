@@ -11,7 +11,7 @@ tags:
 **O que é:** Um ataque de Negação de Serviço Distribuído (DDoS) no qual o atacante inunda o alvo com falsas requisições de sincronização TCP, explorando o design do protocolo para esgotar a memória do servidor antes que a conexão seja estabelecida.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** O atacante envia uma avalanche de pacotes com a flag SYN ativada. O servidor alvo responde com SYN-ACK e reserva recursos (RAM) para a conexão, aguardando o ACK final do cliente. Como o atacante forjou o IP de origem ou simplesmente ignora a resposta, o ACK nunca chega. O servidor fica com milhares de conexões presas no estado "half-open" (semi-abertas).
+*   **Como Funciona:** O atacante envia uma avalanche de pacotes com a [[Rede_TCP_Flags_e_Header|flag SYN]] ativada. O servidor alvo responde com SYN-ACK e reserva recursos (RAM) para a conexão, aguardando o ACK final do cliente. Como o atacante forjou o IP de origem ou simplesmente ignora a resposta, o ACK nunca chega. O servidor fica com milhares de conexões presas no estado "half-open" (semi-abertas).
 *   **O Problema que Causa:** O esgotamento rápido da tabela de conexões do sistema operacional. Quando o limite é atingido, o servidor para de responder a usuários legítimos, ferindo o princípio da Disponibilidade da [[Cyber_Triade_CID]].
 *   **Visão Sênior (Vulnerabilidades/Escala):** O ataque prova que o [[Rede_TCP_3_Way_Handshake]] possui uma vulnerabilidade de design nativa. A mitigação moderna não pode ser feita apenas fechando portas; ela exige a implementação em nível de Kernel ou [[Rede_Firewall]] de *SYN Cookies* (onde o servidor responde ao SYN-ACK usando uma assinatura matemática sem alocar memória até que o ACK retorne).
 

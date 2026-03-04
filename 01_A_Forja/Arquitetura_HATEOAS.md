@@ -9,10 +9,10 @@ tags:
 ### Arquitetura_HATEOAS
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** O *Hypermedia As The Engine Of Application State* (HATEOAS) representa o nível máximo e mais refinado (Nível 3) de maturidade arquitetural do design REST, onde a resposta da API injeta ativamente os links das próximas ações válidas que o cliente pode realizar com aquele recurso.
+**O que é:** O *Hypermedia As The Engine Of Application State* (HATEOAS) representa o nível máximo e mais refinado (Nível 3) de maturidade arquitetural do design [[Arquitetura_REST|REST]], onde a resposta da API injeta ativamente os links das próximas ações válidas que o cliente pode realizar com aquele recurso.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** O frontend não precisa "hardcodar" (cravar no código) as URLs ou adivinhar a regra de negócio. Se ele dá um `GET` num recurso, o servidor retorna o dado + um bloco JSON chamado `_links` (padrão HAL) informando que o cliente está autorizado, naquele estado, a acessar as rotas de `editar` ou `excluir`.
+- **Como Funciona:** O frontend não precisa "hardcodar" (cravar no código) as URLs ou adivinhar a regra de negócio. Se ele dá um `GET` num recurso, o servidor retorna o dado + um bloco [[Front_JSON|JSON]] chamado `_links` (padrão HAL) informando que o cliente está autorizado, naquele estado, a acessar as rotas de `editar` ou `excluir`.
 - **O Problema que Resolve:** Desacopla o Frontend do Backend. Se a URL de cancelamento mudar amanhã, o Frontend não quebra, pois ele apenas clica no botão fornecido dinamicamente na chave `href` vinda do servidor na hora da consulta.
 - **Visão Sênior (Vulnerabilidades/Escala):** É amplamente aclamado na academia e brutalmente ignorado no mercado sênior de alta escala. O motivo? Custo de CPU. Calcular dinamicamente quais links o usuário X tem permissão de enxergar sobre o recurso Y para cada requisição que chega aumenta drasticamente a latência e o payload trafegado. Por isso, a grande maioria do mercado trava no "Nível 2" e usa cache agressivo.
 

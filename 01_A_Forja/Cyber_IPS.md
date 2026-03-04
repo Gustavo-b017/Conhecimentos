@@ -12,7 +12,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Diferente do [[Cyber_IDS]] que apenas olha uma "cópia" do tráfego, o IPS fica fisicamente no meio do fio (geralmente integrado hoje em um [[Cyber_Firewall_NGFW]]). O pacote é obrigado a passar por dentro dele. Se o IPS detecta um payload malicioso (ex: um *exploit* do protocolo SMB), ele descarta o pacote (Drop) e encerra a sessão TCP com um pacote RST falsificado.
-*   **O Problema que Resolve:** Elimina o tempo de latência entre a detecção de um ataque e a intervenção humana. Quando *Worms* de rede começaram a se espalhar em milissegundos, esperar um humano ler um log de IDS e criar uma regra no firewall tornou-se obsoleto. O IPS automatiza a defesa contra ameaças dinâmicas.
+*   **O Problema que Resolve:** Elimina o tempo de latência entre a detecção de um ataque e a intervenção humana. Quando [[Cyber_Malware_Worm|Worms]] de rede começaram a se espalhar em milissegundos, esperar um humano ler um log de IDS e criar uma regra no firewall tornou-se obsoleto. O IPS automatiza a defesa contra ameaças dinâmicas.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A força do IPS é sua maior fraqueza arquitetural. Primeiro: ele é um gargalo físico; se o IPS travar, a internet inteira da empresa cai (Ponto Único de Falha), a menos que seja configurado para falhar de forma aberta (*fail-open*), o que destrói a segurança. Segundo: Falsos Positivos aqui são catastróficos. Se o IPS confundir um tráfego vital de banco de dados com um ataque, ele aniquila a operação da empresa, gerando prejuízos imediatos.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

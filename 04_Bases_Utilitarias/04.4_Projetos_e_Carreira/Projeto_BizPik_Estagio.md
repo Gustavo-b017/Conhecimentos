@@ -3,7 +3,7 @@ tags: [status/3_incubadora, tipo/moc, contexto/carreira, contexto/dev, afinidade
 ---
 
 * Tempo de Estágio:
-	* 6 Horas
+	* 6 Horas ([[Carreira_Estagio]])
 	* Janeiro: 2 dias presenciais: terça e quinta.
 	* Fevereiro (talvez mude): 3 dias presenciais: terça, quarta e quinta.
 * Valores:
@@ -17,4 +17,3 @@ tags: [status/3_incubadora, tipo/moc, contexto/carreira, contexto/dev, afinidade
 	* 8:30 h as 15:30 h ( com almoço ) 
 	* Posso ficar depois de bater ponto
 * Possível efetivação no meio do ano ( uns 6 meses de trabalho ), depende do desempenho
-

@@ -19,7 +19,7 @@ tags:
 Usar uma [[Cyber_VPN_Mecanica]] é o equivalente a **construir um duto de aço cego e inquebrável que cruza o fundo do oceano** (a Internet pública). Qualquer submarino espião fora do duto pode ver que o duto existe, pode ver a quantidade de água sendo deslocada (Tamanho do Tráfego), mas não faz a menor ideia se o que está trafegando lá dentro é petróleo, ouro ou areia (Criptografia). Porém, se a pessoa que injeta o material no duto colocar ácido lá dentro (um dispositivo de usuário infectado), o ácido será entregue com segurança máxima diretamente no coração do castelo de destino.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-O protocolo *WireGuard* é o atual estado da arte (por rodar dentro do Kernel do Linux, sendo absurdamente mais rápido que o antigo OpenVPN). Exemplo mínimo de configuração de interface (`wg0.conf`) do lado do cliente:
+O protocolo [[Cyber_WireGuard]] é o atual estado da arte (por rodar dentro do Kernel do Linux, sendo absurdamente mais rápido que o antigo OpenVPN). Exemplo mínimo de configuração de interface (`wg0.conf`) do lado do cliente:
 ```ini
 [Interface]
 # A chave privada matematicamente gerada para este dispositivo

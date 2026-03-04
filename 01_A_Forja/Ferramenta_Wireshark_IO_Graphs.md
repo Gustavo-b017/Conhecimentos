@@ -12,12 +12,12 @@ tags:
 **O que é:** Os I/O Graphs (Input/Output) formam um painel de visualização bidimensional do Wireshark que plota métricas brutas de transferência de dados (Pacotes ou Bits por Segundo) contra o tempo, atestando picos e quedas súbitas da rede de forma imediata.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Traça o tráfego como um gráfico de linhas contínuo. O eixo X é o tempo absoluto (em segundos) da gravação; o eixo Y mostra os Bytes ou Pacotes. Permite sobrepor cores diferentes utilizando filtros avançados (ex: Linha Verde para o tráfego total, Linha Vermelha sobreposta apenas para erros TCP).
+*   **Como Funciona:** Traça o tráfego como um gráfico de linhas contínuo. O eixo X é o tempo absoluto (em segundos) da gravação; o eixo Y mostra os Bytes ou Pacotes. Permite sobrepor cores diferentes utilizando filtros avançados (ex: Linha Verde para o tráfego total, Linha Vermelha sobreposta apenas para erros [[Rede_TCP|TCP]]).
 *   **O Problema que Resolve:** Evidencia ataques volumétricos e gargalos físicos de infraestrutura na força bruta. Sem esse gráfico, um ataque [[Cyber_Ataque_DDoS]] passaria como tráfego normal intenso nas linhas de texto. O gráfico expõe a "Parede de Volume", um pico quase vertical impossível de ser gerado legitimamente pelo tráfego humano.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A genialidade para os Blue Teams (defesa) e caçadores de anomalias é a capacidade de suavizar os gráficos utilizando o "Tick Interval" (frações de tempo). Observar a taxa de I/O em janelas de 1 segundo pode ocultar exfiltrações curtas; reduzir o cálculo do gráfico para 0.01 segundos revela micro-picos causados por malwares automatizados que operam em rajadas invisíveis aos olhos humanos.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O I/O Graph é o **Eletrocardiograma (ECG) rítmico do paciente**. Enquanto a "Hierarquia de Protocolos" faz a autópsia macro da rede, o gráfico I/O observa o batimento no leito da UTI. Se a linha do gráfico estiver flutuando calmamente e, de repente, entrar em um estado ininterrupto no topo do quadro (Taquicardia Digital), a porta da rede está sendo brutalmente estrangulada e exige o disparo de uma intervenção tipo "Reset" (RST).
+O I/O Graph é o **Eletrocardiograma (ECG) rítmico do paciente**. Enquanto a "[[Ferramenta_Wireshark_Protocol_Hierarchy|Hierarquia de Protocolos]]" faz a autópsia macro da rede, o gráfico I/O observa o batimento no leito da UTI. Se a linha do gráfico estiver flutuando calmamente e, de repente, entrar em um estado ininterrupto no topo do quadro (Taquicardia Digital), a porta da rede está sendo brutalmente estrangulada e exige o disparo de uma intervenção tipo "Reset" (RST).
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 A auditoria visual comparativa baseia-se em mapear erros da rede perante a carga de tráfego usando Display Filters diretamente nas configurações das linhas do gráfico:

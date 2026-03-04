@@ -13,11 +13,11 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 - **Como Funciona:** Ele serializa objetos complexos em strings, sendo completamente agnóstico de linguagem. Qualquer backend (Java, Python, Go) consegue fazer o *parsing* dessa string para objetos nativos em memória.
-- **O Problema que Resolve:** Aniquilou a verbosidade extrema e o peso burocrático do [[DB_XML]], permitindo o surgimento de aplicações web e mobile velozes que consomem APIs em milissegundos.
-- **Visão Sênior (Vulnerabilidades/Escala):** Como o JSON não possui validação de esquema nativa rígida, ele é o vetor perfeito para ataques de *Mass Assignment*. Se o backend não blindar a entrada com um [[Arquitetura_DTO]], o atacante pode injetar chaves extras não previstas (`"admin": true`) direto no banco de dados. Em escalas de Big Data, o custo de CPU para ler JSON em texto plano é ineficiente, exigindo formatos binários como Parquet ou Protobuf.
+- **O Problema que Resolve:** Aniquilou a verbosidade extrema e o peso burocrático do [[DB_XML|XML]], permitindo o surgimento de aplicações web e mobile velozes que consomem APIs em milissegundos.
+- **Visão Sênior (Vulnerabilidades/Escala):** Como o JSON não possui validação de esquema nativa rígida, ele é o vetor perfeito para ataques de *Mass Assignment*. Se o backend não blindar a entrada com um [[Arquitetura_DTO|DTO]], o atacante pode injetar chaves extras não previstas (`"admin": true`) direto no banco de dados. Em escalas de Big Data, o custo de CPU para ler JSON em texto plano é ineficiente, exigindo formatos binários como Parquet ou Protobuf.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O JSON é como usar **Post-its** para passar informações em um escritório. É rápido, direto e sem burocracia: você escreve "Nome: João" e cola na mesa do colega. O [[DB_XML]], por outro lado, exige que essa mesma informação seja enviada dentro de um envelope timbrado, carimbado em cartório e com 3 páginas de jargões jurídicos para provar que o João é realmente o João.
+O JSON é como usar **Post-its** para passar informações em um escritório. É rápido, direto e sem burocracia: você escreve "Nome: João" e cola na mesa do colega. O [[DB_XML|XML]], por outro lado, exige que essa mesma informação seja enviada dentro de um envelope timbrado, carimbado em cartório e com 3 páginas de jargões jurídicos para provar que o João é realmente o João.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 O *payload* enxuto de um cliente trafegando na rede. Em arquiteturas modernas com Spring Boot, a biblioteca Jackson serializa a resposta para este formato nativamente:

@@ -20,7 +20,7 @@ tags:
 O NGINX opera como o **Maestro da Orquestra Sinfônica em um teatro hiperlotado**. Quando a porta da frente (a porta 80 ou 443) recebe 100 mil pedidos de clientes ao mesmo tempo, ele não tenta processar todos eles no caixa; ele rapidamente pega os pedidos, impõe políticas de bloqueio, adiciona criptografia e distribui (Balanceamento de Carga) de forma invisível para os servidores menores e escondidos no porão da empresa. 
 
 #### 4. Pragmatismo Aplicado (Código/Implementação)
-As implementações cruciais do NGINX giram em torno da imposição de segurança ponta a ponta e bloqueio de protocolos mortos para aprovação em auditorias como o PCI-DSS.
+As implementações cruciais do NGINX giram em torno da imposição de segurança ponta a ponta e bloqueio de protocolos mortos para aprovação em auditorias como o [[Cyber_PCI_DSS|PCI-DSS]].
 ```nginx
 # Forçar terminação TLS moderna e rejeição imediata de SSL legados vulneráveis (como bloqueio contra o ataque POODLE):
 server {

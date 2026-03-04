@@ -12,7 +12,7 @@ tags:
 **O que é:** A ISO/IEC 27001 é o padrão global absoluto que especifica os requisitos para estabelecer, implementar, manter e melhorar continuamente um Sistema de Gestão de Segurança da Informação (SGSI/ISMS) dentro do contexto dos riscos do negócio.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Ela não te diz *como* apertar os parafusos do servidor; ela te obriga a criar um processo administrativo documentado. Exige que a diretoria assuma a responsabilidade, que os riscos sejam mapeados matematicamente (Gestão de Riscos) e que existam auditorias internas periódicas.
+*   **Como Funciona:** Ela não te diz *como* apertar os parafusos do servidor; ela te obriga a criar um processo administrativo documentado. Exige que a diretoria assuma a responsabilidade, que os riscos sejam mapeados matematicamente ([[Cyber_Risco|Gestão de Riscos]]) e que existam auditorias internas periódicas.
 *   **O Problema que Resolve:** Elimina a segurança cibernética baseada no "achismo" técnico. Fornece uma chancela internacional (Certificação) que atesta para o mercado e parceiros B2B que a sua empresa não trata a proteção de dados como um hobby de TI.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A maior falha na adoção da ISO 27001 é a burocratização cega. Muitas empresas forjam toneladas de PDFs inúteis apenas para passar na auditoria anual, enquanto, na prática (no terminal de comando), os servidores continuam expostos e vulneráveis. O certificado na parede não blinda a rede contra um Zero-Day, apenas prova que você tem um plano de contenção quando o desastre ocorrer.
 
@@ -24,8 +24,8 @@ A [[Cyber_ISO_27001]] é o **Plano Diretor de um Município**. O Plano Diretor d
 Exemplo de declaração obrigatória de SGSI:
 ```text
 "Política de Controle de Acesso:
-1. Todo ativo de informação crítica deve ser acessado via Autenticação Multifator (MFA).
-2. O princípio do Menor Privilégio (Zero Trust) será imposto a todos os usuários.
+1. Todo ativo de informação crítica deve ser acessado via Autenticação Multifator ([[Cyber_MFA|MFA]]).
+2. O princípio do Menor Privilégio ([[Cyber_Zero_Trust|Zero Trust]]) será imposto a todos os usuários.
 3. Auditorias de contas inativas devem ser rodadas a cada 90 dias pelos gestores de área."
 ````
 
