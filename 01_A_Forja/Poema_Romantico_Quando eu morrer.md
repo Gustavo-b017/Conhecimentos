@@ -3,7 +3,7 @@ tags: [status/4_evergreen, tipo/arte, contexto/mindset/romance, afinidade/alta]
 ---
 
 Quando eu morrer,
-Não quero flores,
+Não quero flores ([[Mindset_Simbolismo]]),
 Não quero lágrimas,
 E certamente,
 Não quero pessoas voando de longe só para dizer....
@@ -15,5 +15,5 @@ O que está esperando?!
 Me mande flores agora,
 Venha me ver agora,
 Por favor,
-Não espere até que eu vá embora
+Não espere até que eu vá embora (Lembre-se do [[Mindset_Memento_Mori]])
 **Me Ame Hoje**

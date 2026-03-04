@@ -8,7 +8,7 @@ tags:
 
 ### Rede_DHCP
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** O DHCP (Dynamic Host Configuration Protocol) é um protocolo cliente-servidor que automatiza a alocação de endereços lógicos ([[Rede_IP]]), máscaras de sub-rede, gateways e servidores DNS para dispositivos em uma rede.
+**O que é:** O DHCP (Dynamic Host Configuration Protocol) é um protocolo cliente-servidor que automatiza a alocação de endereços lógicos ([[Rede_IP]]), máscaras de [[Rede_Subnetting]], gateways e servidores DNS para dispositivos em uma rede.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Opera via UDP (Portas 67 no Servidor, 68 no Cliente). Utiliza o processo de 4 etapas **DORA**:

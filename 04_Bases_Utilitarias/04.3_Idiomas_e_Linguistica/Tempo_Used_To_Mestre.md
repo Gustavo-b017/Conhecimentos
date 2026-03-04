@@ -23,9 +23,9 @@ Muitos nativos escrevem errado ("use to" em afirmações). Por que?
 
     ◦ _Afirmativa:_ I use**d** to go. (Tem o 'd').
 
-    ◦ _Negativa:_ I **did**n't use to go. (O 'did' já roubou o passado, o 'd' cai)**Tags:**
+    ◦ _Negativa:_ I **did**n't use to go. (O 'did' já roubou o passado, o 'd' cai)
 
-1. A Diferença de "Software"
+### 3. A Diferença de "Software" (Get Used To vs Be Used To)
 
 Aqui, a palavra _Used_ não é o verbo "usar". Ela é um **Adjetivo** que significa "acostumado" ou "calejado".
 
@@ -37,7 +37,7 @@ Aqui, a palavra _Used_ não é o verbo "usar". Ela é um **Adjetivo** que signif
 
     ◦ _Analogia:_ Você já está na piscina há 20 minutos. A água parece normal.
 
-2. O Grande Segredo do "ING" (Por que tem ING?)
+### 4. O Grande Segredo do "ING" (Por que tem ING?)
 
 Seu cérebro quer dizer "I am used to _work_". Isso está errado. O correto é "I am used to **working**".
 

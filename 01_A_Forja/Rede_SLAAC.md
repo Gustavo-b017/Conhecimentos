@@ -16,10 +16,20 @@ tags:
 *   **Visão Sênior (Vulnerabilidades/Escala):** O SLAAC puro não entrega configurações cruciais adicionais, como o endereço do servidor [[Rede_DNS]]. Para corrigir isso, a arquitetura moderna utiliza as "Flags" nos pacotes RA (como a *O Flag* - Other Configuration) para dizer ao host: "Crie seu próprio IP, mas vá perguntar ao DHCPv6 apenas onde fica o DNS".
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O processo do SLAAC é como **se mudar para um novo país e gerar seu próprio número de telefone**. No modelo antigo (DHCP), você entrava no país e ia para uma fila burocrática no governo pedir um número de telefone. No SLAAC, você cruza a fronteira e vê uma placa na estrada dizendo "O código de área deste país é +55" (Prefixo do Roteador). Você pega esse código, anexa ao número de chassi do seu celular (O MAC Address) e começa a fazer ligações imediatamente, sem falar com nenhum funcionário do governo.
+O processo do SLAAC é como **se mudar para um novo país e gerar seu próprio número de telefone**. No modelo antigo (DHCP), você entrava no país e ia para uma fila burocrática no governo pedir um número de telefone. No SLAAC, você cruza a fronteira e vê uma placa na estrada dizendo "O código de área deste país é +55" (Prefixo do Roteador). Você pega esse código, anexa ao número de chassi do seu celular (O MAC Address) e começa a fazer ligações imediatamente.
+
+Essa mágica, porém, depende da estrada. Se a [[Rede_Topologias]] for mal projetada (ex: gargalos no Switch central da topologia Estrela), a "placa na estrada" (o pacote RA) nunca chega ao viajante, e a autoconfiguração falha.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-Quando você inspeciona as interfaces de rede do seu sistema (via `ip addr` no Linux ou `ipconfig` no Windows), e encontra múltiplos IPs na versão 6 para a mesma placa, você está vendo o SLAAC em ação gerando IPs temporários e privados de forma autônoma para dificultar o rastreamento na web.
+Quando você inspeciona as interfaces de rede do seu sistema e encontra múltiplos IPs na versão 6 para a mesma placa, você está vendo o SLAAC em ação gerando IPs temporários e privados de forma autônoma para dificultar o rastreamento na web.
+
+```bash
+# Linux: Verificar IPs gerados via SLAAC (procure por "scope global dynamic")
+ip -6 addr show
+
+# Windows: Listar endereços IPv6
+ipconfig /all
+```
 
 #### 5. História do Conteúdo
 Criado em conjunto com o design do IPv6 no final dos anos 1990 (RFC 4862). Os arquitetos sabiam que a rede do futuro não poderia ser algemada à burocracia de servidores locais. A visão era um ecossistema "Plug and Play" total: você tira uma geladeira inteligente da caixa, liga na tomada, e em milissegundos ela deduz matematicamente seu próprio endereço global e começa a operar.

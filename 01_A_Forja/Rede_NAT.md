@@ -15,7 +15,7 @@ tags:
     *   **Static NAT:** Mapeamento 1 para 1 (1 IP Privado = 1 IP Público dedicado). 
     *   **Dynamic NAT:** Múltiplos IPs privados se revezando num pequeno *pool* (tanque) de IPs públicos.
     *   **PAT (Port Address Translation / NAT Overload):** O padrão da sua casa. Pega 1 único IP Público e enfia todas as conexões simultâneas de milhares de IPs privados nele usando as "Portas Lógicas" (ex: PC1 sai na porta 5000, PC2 sai na porta 5001) para destrinchar o tráfego quando a resposta voltar.
-*   **O Problema que Resolve:** O apocalipse do IPv4. Só existem ~4 bilhões de endereços públicos IP no mundo. Existem bilhões a mais de dispositivos. O NAT/PAT resolveu isso permitindo que uma empresa inteira (ou a sua casa com 20 dispositivos Wi-Fi) gaste apenas 1 IP na internet.
+*   **O Problema que Resolve:** O apocalipse do IPv4. Só existem ~4 bilhões de endereços públicos IP no mundo. Existem bilhões a mais de dispositivos. O NAT/PAT resolveu isso permitindo que uma empresa inteira (ou a sua casa com 20 dispositivos Wi-Fi) gaste apenas 1 IP na internet. A solução definitiva, porém, é o [[Rede_IPv6]].
 *   **Visão Sênior (Vulnerabilidades/Escala):** NAT é um pesadelo de performance para roteadores (esgota a RAM guardando a tabela de estados das portas ativas). Além disso, quebra o sagrado modelo "Ponta-a-Ponta" da internet. Ferramentas como o VoIP (Protocolo SIP), FTP Ativo ou VPNs sofrem enormemente com NAT e exigem remendos adicionais como ALGs (Application Layer Gateways) para não terem os pacotes corrompidos durante a travessia. 
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

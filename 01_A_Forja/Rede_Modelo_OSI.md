@@ -15,15 +15,15 @@ tags:
 *   **Visão Sênior (Vulnerabilidades/Escala):** É um modelo estritamente teórico e rígido. Ninguém programa o kernel de um sistema operacional usando o OSI literal. Porém, ele é a ferramenta universal de *Troubleshooting* (diagnóstico). Se a rede cai, um engenheiro sênior isola o problema camada por camada.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-*A Jornada do Dado:* Imagine que você está na sua casa, que forma uma LAN dentro dos [[Rede_Escopos_Geograficos]]. Você liga o PC e o processo DORA do [[Rede_DHCP]] automaticamente te empresta um [[Rede_IP]] . Você abre o navegador (Camada 7) e digita um site. Como humanos não leem números, a lista telefônica chamada [[Rede_DNS]] atua para achar o IP do servidor.
+*A Jornada do Dado:* Imagine que você está na sua casa, que forma uma LAN dentro dos [[Rede_Escopos_Geograficos]]. O processo de descida pelas camadas é um [[Rede_Encapsulamento]] constante, como colocar uma carta dentro de envelopes sucessivos. Você liga o PC e o processo DORA do [[Rede_DHCP]] automaticamente te empresta um [[Rede_IP]]. Você abre o navegador (Camada 7) e digita um site. Como humanos não leem números, a lista telefônica chamada [[Rede_DNS]] atua para achar o IP do servidor.
 
 O navegador prepara a formatação segura do dado (Camada 6 e 5) e entrega a caixa para a Camada 4 (Transporte). Aqui, o burocrata [[Rede_TCP]] inicia o seu acordo rigoroso via [[Rede_TCP_3_Way_Handshake]], abrindo portas lógicas ([[Rede_TCP_Portas_e_Sockets]]) para não misturar a aba do seu navegador com as requisições rápidas e sem verificação do seu jogo online que usa [[Rede_UDP]].
 
-O pacote desce para a Camada 3 (Rede)], onde o [[Rede_NAT]] atua no seu roteador ([[Rede_Hardware]]), camuflando seu IP privado vulnerável atrás de um único IP público. Para a caixa sair fisicamente da sua máquina, a Camada 2 entra em ação: o [[Rede_ARP]] grita na rede local perguntando qual é o [[Rede_MAC]] da placa de rede do seu roteador. Com esse chassi em mãos, a Camada 1 transforma tudo em pulsos elétricos ou luz e atira no mundo.
+O pacote desce para a Camada 3 (Rede), onde o [[Rede_NAT]] atua no seu roteador ([[Rede_Hardware]]), camuflando seu IP privado vulnerável atrás de um único IP público. Para a caixa sair fisicamente da sua máquina, a Camada 2 entra em ação: o [[Rede_ARP]] grita na rede local perguntando qual é o [[Rede_MAC]] da placa de rede do seu roteador. Com esse chassi em mãos, a Camada 1 transforma tudo em pulsos elétricos ou luz e atira no mundo.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 O diagnóstico diário segue a lógica OSI, de baixo para cima:
-1. **Camada 1:** O cabo está conectado?
+1. **Camada 1:** O cabo está conectado? ([[Infra_Hardware_Troubleshooting]])
 2. **Camada 2:** `arp -a` mostra o MAC do roteador na tabela?
 3. **Camada 3:** `ping 8.8.8.8` (O IP responde e alcança a internet?)
 4. **Camada 4/7:** `telnet 8.8.8.8 443` (A porta do serviço TCP está aberta para a Aplicação?)

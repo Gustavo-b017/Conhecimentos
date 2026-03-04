@@ -8,9 +8,9 @@ Por alguma razão, não há nada no mundo que eu gostaria de saber mais, exceto 
 
 Um ou ambos, ou todos esses fatos.
 
-Eu sei que acabamos de nos conhecer e não quero ir muito rápido, mas não consegui me concentrar esta manhã porque preciso saber o que você gostaria de comer, e os [[Sonho]]s que você nunca diria em voz alta mas secretamente deseja tornar realidade.
+Eu sei que acabamos de nos conhecer e não quero ir muito rápido, mas não consegui me concentrar esta manhã porque preciso saber o que você gostaria de comer, e os [[Mindset_Sonhos]] que você nunca diria em voz alta mas secretamente deseja tornar realidade.
 
-E se eu comprasse flores para você, você gostaria que elas fossem azuis?
+E se eu comprasse flores para você, você gostaria que elas fossem azuis? (Um teste de [[Mindset_Vulnerabilidade]] e [[Mindset_Psicologia_Cores]])
 
 Eu sei que acabamos de nos conhecer e não quero ir muito rápido, mas de repente sua voz está na minha cabeça, tocando repetidamente.
 

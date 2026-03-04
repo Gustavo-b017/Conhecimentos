@@ -2,7 +2,7 @@
 tags: [status/arquivo, tipo/moc, contexto/carreira, afinidade/pendente]
 ---
 
-- [x] Ir na academia pelo menos 4 vezes na semana.
+- [x] Ir na academia pelo menos 4 vezes na semana. ([[Mindset_Disciplina]])
 	- [x] Emagrece 7 Kg no mínimo 
 	- [x] Secar pelo mesmo 20% da gordura corporal
 	- [x]  Construir uma musculatura minimamente aparente 
@@ -12,8 +12,8 @@ tags: [status/arquivo, tipo/moc, contexto/carreira, afinidade/pendente]
 - [ ] Faculdade:
 	- [x] Ler e compreender estatística básica
 	- [ ] Ler e compreender probabilidade 
-	- [x] Desenvolver habilidades ligadas ao Linux
-	- [x] Começar a aprender Cyber Segurança 
+	- [x] Desenvolver habilidades ligadas ao Linux ([[Infra_Linux_Comandos]] e [[Ferramenta_Rsync]])
+	- [x] Começar a aprender Cyber Segurança ([[Cyber_Roadmap_Iniciante]] e [[Cyber_Monitoramento_Continuo]])
 	- [x] Desenvolver a solução do Challenger
 	- [x] Ter uma média de 8 pontos ou mais no boletim 
 	- [x] Aprender a montar slide
@@ -22,13 +22,13 @@ tags: [status/arquivo, tipo/moc, contexto/carreira, afinidade/pendente]
 - [ ] Pessoal: 
 	- [x] Ler e compreender os livros:
 		- [ ] A arte da sedução 
-		- [ ] As armas da persuasão 
-		- [ ] O príncipe 
+		- [ ] As armas da persuasão ([[Leitura_Armas_da_Persuasao]] e [[Social_Persuasao]])
+		- [ ] O príncipe ([[Leitura_Maquiavel]] e [[Mindset_Estrategia]])
 		- [ ] Lethur
 		- [ ] O livro dos 5 aneis
-	- [x] Chegar no inglês intermediário 
+	- [x] Chegar no inglês intermediário ([[Idioma_Ingles_Vocab]] e [[Idioma_Ingles_Gramatica]])
 	- [ ] Assistir a 2 séries completas em inglês
-	- [x] Estudar economia básica 
+	- [x] Estudar economia básica ([[Financas_Macroeconomia]])
 		- [ ] aprender sobre juros
 		- [ ] termos técnicos
 		- [ ] história da economia
@@ -42,7 +42,7 @@ tags: [status/arquivo, tipo/moc, contexto/carreira, afinidade/pendente]
 			- [ ] cyptomoeda
 			- [ ] ETF
 	- [x] Desenvolver mais o Obsidian
-		- [x] Transcrever os ideias de pelo menos 1 livro
+		- [x] Transcrever os ideias de pelo menos 1 livro para a [[01_A_Forja]]
 		- [x] Popular com mais notas
 		- [x] Melhorar a organização 
 		- [x] Inserir notas úteis de de fácil acesso

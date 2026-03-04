@@ -17,11 +17,12 @@ tags:
 *   **Visão Sênior (Vulnerabilidades/Escala):** A genialidade é a imunidade a falhas humanas e "self-healing" nativo. Como quem computa é o próprio protocolo link-state (IS-IS), se uma fibra óptica crucial para a fatia de "Baixa Latência" romper, o roteador reconverge e acha matematicamente um novo caminho, confinado puramente às restrições originais daquele Flex-Algo. Um túnel não cai, a fatia apenas se dobra para continuar viva.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-Imagine o roteamento normal como o trânsito da cidade onde carros sempre pegam as ruas mais largas (**Métrica Padrão**). O Flex-Algo é ligar o aplicativo de GPS Waze em perfis distintos, criando realidades e mapas paralelos. Os carros da ambulância veem apenas o mapa "Evitar ruas com pedágios/Semáforos" (**Algo 128: Low Delay / Link-Affinity Exclude**), ignorando ruas largas se estas forem mais demoradas. Cada perfil navega pelo mesmo asfalto físico, obedecendo regras físicas diametralmente exclusivas e com SIDs diferentes.
+Imagine o roteamento normal como o trânsito da cidade onde carros sempre pegam as ruas mais largas (**Métrica Padrão**). O Flex-Algo é ligar o aplicativo de GPS Waze em perfis distintos, criando realidades e mapas paralelos sobre a mesma [[Rede_Topologias]] física. Os carros da ambulância veem apenas o mapa "Evitar ruas com pedágios/Semáforos" (**Algo 128: Low Delay / Link-Affinity Exclude**), ignorando ruas largas se estas forem mais demoradas. Cada perfil navega pelo mesmo asfalto físico, obedecendo regras lógicas diametralmente exclusivas.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 A implementação em roteadores (ex: Junos) baseia-se em alterar a métrica do FAD (Flex-Algo Definition) e atrelar a um SRv6 Locator exclusivo para que os pacotes ganhem o carimbo de entrada daquela "fatia":
 ```bash
+# Vendor: Juniper (Junos)
 # Definindo o Flex-Algo 128 focado em Métrica de Delay e vinculando um Locator
 set routing-options flex-algorithm 128 definition metric-type delay
 set routing-options source-packet-routing srv6 locator loc-delay-128 2001:db8:b1:1::/64 algorithm 128

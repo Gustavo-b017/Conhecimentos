@@ -36,7 +36,7 @@ tags: [status/4_evergreen, tipo/receita, contexto/social/abridores, afinidade/pe
 	* Então pod te beijar ?
 
 * O seu pai não trabalha com móveis planejados ? ( afirmação e dúvida )
-	* Ah, me desculpa, é que vc foi feita sob medida para mim !
+	* Ah, me desculpa, é que vc foi feita sob medida para mim ! ([[Social_Humor_Quebra_Gelo]])
 
 * Seu olhar é muito bonito, ele é igual a radar
 	* Me olhou e me paralisou
@@ -104,11 +104,11 @@ tags: [status/4_evergreen, tipo/receita, contexto/social/abridores, afinidade/pe
 	* Vc n quer me ajudar a perder uns 10 kg ?
 
 * A maioria das pessoas treinam para ficar bonito pelado
-	* a gente ja treinou, então bora conferir ?
+	* a gente já treinou, então bora conferir ?
 
 #### Na rua:
-* Vc deve dar uma confusão no metro
-	* pq só de te ver ja perdi a linha
+* Vc deve dar uma confusão no metrô
+	* pq só de te ver já perdi a linha
 
-* Mas tem outros meios de transporte, inves de metro, posso te oferecer um jato
-	* um jatinho branco
+* Mas tem outros meios de transporte, ao invés de metro, posso te oferecer um jato
+	* um jatinho branco (Cuidado: Risco de rejeição alto - [[Social_Calibragem]] e [[Social_Leitura_Fria]])

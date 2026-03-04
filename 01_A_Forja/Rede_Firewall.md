@@ -14,13 +14,13 @@ tags:
     1.  **A Base Sem Memória:** [[Cyber_Firewall_PacketFilter]] (Analisa apenas IPs e portas).
     2.  **O Rastreamento Contínuo:** [[Cyber_Firewall_Stateful]] (Lembra o contexto das conexões).
     3.  **O Intermediário Absoluto:** [[Cyber_Firewall_Proxy]] (Oculta o cliente e refaz requisições).
-    4.  **A Inspeção Profunda (DPI):** [[Cyber_Firewall_NGFW]] (Compreende aplicativos modernos e integra detecção de intrusão [1, 2]).
+    4.  **A Inspeção Profunda (DPI):** [[Cyber_Firewall_NGFW]] (Compreende aplicativos modernos, faz [[Cyber_Criptografia_SSL_Inspection]] e integra detecção de intrusão [1, 2]).
     5.  **A Proteção de Front-end:** [[Cyber_Firewall_WAF]] (Exclusivo para defesa de sites HTTP/HTTPS).
 *   **O Problema que Resolve:** Institui a demarcação de perímetros. Sem ele, todo serviço corporativo ou porta rodando no computador estaria inerentemente exposto ao escaneamento contínuo e à invasão brutal da internet pública.
 *   **Visão Sênior (Vulnerabilidades/Escala):** Firewalls blindam a infraestrutura contra o exterior, mas falham catastroficamente se o ataque nascer do lado de dentro. Um funcionário executando um malware trazido em um pendrive ou vítima de Phishing destrói o conceito do firewall de borda. Por isso, as redes modernas adotam a abordagem de "Zero Trust" (Nunca Confie, Sempre Verifique), considerando a rede interna tão letal e hostil quanto a externa.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O [[Rede_Firewall]] é a materialização tecnológica de um **Castelo Medieval**. Na idade média, o rei não murava cada casa do vilarejo (o que seria caro), ele construía uma muralha brutal de 30 metros ao redor da cidade inteira. A porta de entrada do castelo (O Firewall) controla quem possui o estandarte certo (IP) para entrar. Contudo, se um rato infectado com peste bubônica (Malware via e-mail) entrar disfarçado na carroça de trigo de um camponês legítimo (Tráfego TLS criptografado), a muralha não o detecta, e o reino cai de dentro para fora. Por isso, hoje, a segurança não pode viver apenas de muros.
+O [[Rede_Firewall]] é a materialização tecnológica de um **Castelo Medieval**. Na idade média, o rei não murava cada casa do vilarejo (o que seria caro), ele construía uma muralha brutal de 30 metros ao redor da cidade inteira, muitas vezes usando o [[Rede_NAT]] para esconder as casas internas. A porta de entrada do castelo (O Firewall) controla quem possui o estandarte certo (IP) para entrar. Contudo, se um rato infectado com peste bubônica (Malware via e-mail) entrar disfarçado na carroça de trigo de um camponês legítimo (Tráfego TLS criptografado ou via [[Rede_VPN]]), a muralha não o detecta, e o reino cai de dentro para fora. Por isso, hoje, a segurança adota o [[Cyber_Zero_Trust]].
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 A premissa zero de qualquer configuração de firewall é a regra de negação por padrão ("Implicit Deny"). Fecha-se tudo e cria-se furos cirúrgicos para as portas necessárias. Exemplo em `iptables` de um servidor Linux:
@@ -36,7 +36,7 @@ iptables -P OUTPUT ACCEPT
 # Abrir um buraco apenas para o tráfego HTTP e HTTPS
 iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 iptables -A INPUT -p tcp --dport 443 -j ACCEPT
-````
+```
 
 #### 5. História do Conteúdo
 

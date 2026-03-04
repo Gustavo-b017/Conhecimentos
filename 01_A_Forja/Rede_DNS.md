@@ -14,7 +14,7 @@ tags:
 *   **Como Funciona:** Ocorre na Camada 7 (Aplicação) primariamente via UDP porta 53 pela velocidade. O processo envolve dois atores principais:
     * **Recursive Resolver:** O "assistente" (geralmente do seu provedor ou 8.8.8.8). Ele busca a resposta para você caçando na hierarquia da internet.
     * **Authoritative Server:** O "dono da verdade". O servidor que guarda o registro oficial daquele domínio.
-*   **Registros Atômicos (Records):** A (Mapeia nome p/ IPv4), AAAA (Nome p/ IPv6), CNAME (Apelido/Alias para outro nome), MX (Direciona para o servidor de E-mail), TXT (Textos arbitrários, usado para segurança/SPF) .
+*   **Registros Atômicos (Records):** A (Mapeia nome p/ IPv4), AAAA (Nome p/ [[Rede_IPv6]]), CNAME (Apelido/Alias para outro nome), MX (Direciona para o servidor de E-mail), TXT (Textos arbitrários, usado para segurança/SPF) .
 *   **O Problema que Resolve:** Humanos são péssimos em decorar números abstratos. Sem o DNS, para acessar a Netflix, você precisaria digitar `54.237.226.164`. Ele é a "lista telefônica" da rede.
 *   **Visão Sênior (Vulnerabilidades/Escala):** DNS não foi criado com segurança em mente. É vulnerável a *DNS Cache Poisoning* (envenenar o cache do resolver para redirecionar usuários para sites falsos) e *DNS Hijacking*. Hoje, isso é mitigado utilizando DNSSEC (assinatura criptográfica dos registros) e DoH/DoT (DNS sobre HTTPS/TLS) para evitar espionagem.
 

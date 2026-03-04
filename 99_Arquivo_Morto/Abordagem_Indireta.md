@@ -4,7 +4,7 @@ tags: [status/4_evergreen, tipo/receita, contexto/social/abordagem, afinidade/pe
 
 Como o nome já diz, é um estilo de [[Abordagem]] que foca em mascarar o interesse. Onde não se mostra interessado, disfarçando suas intenções.
 
-Basicamente é o contrario da [[Abordagem Direta]] kakaka
+Basicamente é o oposto da [[Abordagem Direta]].
 
 É claro que algumas vão perceber que você está interessado.
 Mas não tem problema, pois esse estilo de abordagem te da mais tempo para trabalhar no seu jogo.
@@ -17,7 +17,7 @@ Ideal para usar quando vc quer chegar nela, porém ela não demostra algum sinal
 		* Oi, tudo bem? Eu sou novo na cidade, e ainda não consegui conhecer a noite de São Paulo, acredita? Você tem cara que costuma sair bastante. Tem algum lugar legal aqui por perto pra me recomendar?
 	* Mulheres não gostam de mentiras, mas esse é um tipo de mentira inofensiva.
 	* Se mais pra frente ela descobrir que você mentiu, você simplesmente diz que queria muito falar com ela, e foi isso que veio na sua cabeça na hora
-	* Não tem problema mentir um pouco na conversa inicial, desde que seja inofensiva (  ou uma [[mentira branca]] )
+	* Não tem problema mentir um pouco na conversa inicial, desde que seja inofensiva (ou uma [[Social_Mentira_Branca]])
 * Pedir uma opinião.
 	* Ex: 
 		* Você está no shopping, vê uma gata e diz: 

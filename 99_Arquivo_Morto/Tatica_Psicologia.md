@@ -9,7 +9,7 @@ Essa é uma abordagem que mescla tanto a [[Abordagem Direta]] e a [[Abordagem In
 
 * Você chega nela e fala: 
 	* Eu te vi de longe e tive que vir aqui perguntar... Como os homens geralmente te abordam? 
-	* É que eu sou psicólogo e estou estudando o comportamento das mulheres quando são abordadas por homens. Quero descobrir qual a diferença do comportamento das mulheres mais ou menos e bonitas quando são abordadas... 
+	* É que eu sou psicólogo e estou estudando o comportamento das mulheres quando são abordadas por homens. Quero descobrir qual a diferença do comportamento das mulheres mais ou menos e bonitas quando são abordadas... (Gatilho de [[Social_Autoridade]])
 		* Essa é matadora! 
 		* Geralmente eu a uso em baladas, sempre em mulheres extremamente gatas. 
 		* A primeira resposta que eu recebo geralmente é: 
@@ -17,5 +17,5 @@ Essa é uma abordagem que mescla tanto a [[Abordagem Direta]] e a [[Abordagem In
 			* Existem várias formas de se dar bem com essa abordagem.
 		* Termino a conversa dizendo: 
 			* O passo final do meu estudo é descobrir como se comporta as mulheres que são beijadas por mim. 
-			* Até agora eu só tive respostas muito positivas, mas como psicólogo meu dever é coletar o máximo de dados que eu puder. 
+			* Até agora eu só tive respostas muito positivas, mas como psicólogo meu dever é coletar o máximo de dados que eu puder. (Aplicação prática de [[Social_Engenharia_Social]] e [[Social_Persuasao]])
 				* Sempre que você quiser ter uma conversa divertida com inúmeras possibilidades de ficar com a garota, use esse padrão de abordagem. 	

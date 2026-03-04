@@ -18,7 +18,9 @@ tags:
 *   **Visão Sênior (Vulnerabilidades/Escala):** A topologia em Estrela introduz um Ponto Único de Falha (SPOF - *Single Point of Failure*). Se o Switch central queimar, os 500 computadores ao redor dele ficam cegos. A mitigação arquitetural exige redundância física (dois switches centrais em *stack* operando juntos).
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-Topologias são puramente **Planejamento Urbano**. A topologia de Barramento é uma estrada de mão única onde todos os carros precisam parar se houver um acidente. A topologia em Estrela é uma Rotatória Gigante (o Switch): todo o trânsito flui para o centro e é distribuído para a saída correta. A topologia em Malha (Mesh) é o sistema de vielas de um centro histórico europeu: se uma rua principal estiver fechada para obras, você vira à direita, pega três vielas menores e chega no destino de qualquer jeito. O [[Rede_Roteamento]] é o Waze que navega nessa malha.
+Topologias são puramente **Planejamento Urbano**. A topologia de Barramento é uma estrada de mão única onde todos os carros precisam parar se houver um acidente. A topologia em Estrela é uma Rotatória Gigante (o Switch): todo o trânsito flui para o centro e é distribuído para a saída correta. É nessa rotatória que serviços vitais como o [[Rede_SLAAC]] (para endereços IPv6) ou DHCP são distribuídos. Se a rotatória trava, ninguém ganha endereço para circular.
+
+A topologia em Malha (Mesh) é o sistema de vielas de um centro histórico europeu: se uma rua principal estiver fechada para obras, você vira à direita, pega três vielas menores e chega no destino de qualquer jeito. O [[Rede_Roteamento]] é o Waze que navega nessa malha.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 A topologia não é um código que se digita, é uma arquitetura que se desenha (Geralmente usando softwares como Cisco Packet Tracer, Microsoft Visio ou Draw.io).

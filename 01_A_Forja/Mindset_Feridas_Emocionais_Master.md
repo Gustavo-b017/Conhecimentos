@@ -13,7 +13,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 > " Eu só quero sentir uma prioridade "
 
 #### Maior dor:
-* Dor da **vergonha**
+* Dor da **vergonha** ([[Mindset_Vulnerabilidade]])
 * Sensação de **inadequação**
 * Se sentir **ridicularizada**
 #### [[Linguagem do amor]]:
@@ -35,7 +35,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 > " Eu só quero sentir segurança "
 
 #### Maior dor:
-* Dor da **impotência**
+* Dor da **impotência** ([[Mindset_Estoicismo_Controle]])
 * Dor da **frustração** diante da injustiça ( de ser tratado ou de tratar alguém de forma injusta ou desigual)
 #### [[Linguagem do amor]]:
 [[Atos de Serviço]]
@@ -57,7 +57,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 > " Eu só quero ser valorizado "
 
 #### Maior dor:
-* Dor da solidão
+* Dor da solidão (Diferente de [[Mindset_Solitude_vs_Solidao]])
 * Sensação de não pertencimento
 
 #### [[Linguagem do amor]]:
@@ -88,5 +88,5 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 #### Traço tóxico:
 * Materialismo
 * Superficialidade
-* Compras compulsivas
-* Usa bens materiais para compensar questões materiais
+* Compras compulsivas (Tentativa de preencher o [[Mindset_Vazio_Existencial]] e o [[Mindset_Ego]])
+* Usa bens materiais para compensar questões emocionais

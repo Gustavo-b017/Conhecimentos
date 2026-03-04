@@ -11,7 +11,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Em vez de usar classes fixas engessadas (A, B, C), usamos a notação **CIDR** (Classless Inter-Domain Routing), representada por uma barra (ex: `/24`). O número após a barra indica quantos bits da esquerda para a direita estão "travados" para identificar a Rede. O restante dos bits sobra para os dispositivos locais.
-*   **O Problema que Resolve:** O desperdício criminoso de IPs e o excesso de ruído na rede. Se uma empresa com 50 computadores ganhasse uma Classe B inteira (65.534 IPs), dezenas de milhares de endereços ficariam inutilizados. Além disso, o Subnetting diminui o "Domínio de Broadcast": menos máquinas gritando ao mesmo tempo no ouvido das outras.
+*   **O Problema que Resolve:** O desperdício criminoso de IPs e o excesso de ruído na rede. Se uma empresa com 50 computadores ganhasse uma Classe B inteira (65.534 IPs), dezenas de milhares de endereços ficariam inutilizados. Além disso, o Subnetting diminui o "Domínio de Broadcast": menos máquinas gritando ao mesmo tempo no ouvido das outras. Frequentemente mapeado 1:1 com [[Rede_VLAN]]s.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O cálculo manual de VLSM (Variable Length Subnet Masking) é altamente propenso a falhas humanas. Um erro matemático no fatiamento resulta em sobreposição de IPs (Overlapping), fazendo com que pacotes entrem em *loop* infinito ou nunca cheguem ao destino. Requer documentação obsessiva.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
