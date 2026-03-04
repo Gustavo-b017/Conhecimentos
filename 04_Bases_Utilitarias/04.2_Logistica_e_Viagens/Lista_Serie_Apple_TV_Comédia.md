@@ -1,0 +1,2 @@
+* Pelas Garotas e Pela Glória -- #Comédia, #Esporte, #AppleTV, #PrimeVideo 
+	* As estrelas do futebol da escola Colfax Shawn e Nick Brady estão temendo outro verão no campo de futebol. Nick arquiteta um plano brilhante: se inscrever no acampamento da torcida feminina. Logo os dois são cercados por lindas garotas, mas os meninos podem ter de rever seus planos quando se apaixonam por Carly Shawn, a líder de torcida que descobre o plano deles.

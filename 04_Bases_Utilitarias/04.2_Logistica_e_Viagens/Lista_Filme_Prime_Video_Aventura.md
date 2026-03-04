@@ -1,0 +1,2 @@
+* O Aviador -- #Aventura, #Drama, #PrimeVideo 
+	* Depois de receber a herança de seu pai, Howard Hughes passou a investir na indústria do cinema e ajudou a carreira de grandes nomes de Hollywood. Apesar do sucesso e da riqueza, o pioneiro da aviação sofria de depressão e fobias paralisantes.

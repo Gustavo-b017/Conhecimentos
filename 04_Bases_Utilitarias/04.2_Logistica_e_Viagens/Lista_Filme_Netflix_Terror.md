@@ -1,0 +1,3 @@
+* Dia dos Namorados Macabro -- #Terror, #Crime, #Netflix 
+	* Dez anos após uma tragédia, Tom retorna à cidade natal, mas é tratado como o principal suspeito dos assassinatos que voltam a ocorrer no local. Para se defender, ele conta apenas com a ajuda de sua antiga namorada.
+	* Mesmo ator de sobrenatural, o persoangem principal foi perseguido por um assassino em serie morto, a 10 anos atras, e para superar o trauma, ele se torna o mesmo assassino com a mesma roupa de mineiro q o original

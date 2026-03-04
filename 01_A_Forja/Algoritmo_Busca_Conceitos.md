@@ -1,0 +1,2 @@
+[[Busca Binária]]
+[[Busca Linear]]

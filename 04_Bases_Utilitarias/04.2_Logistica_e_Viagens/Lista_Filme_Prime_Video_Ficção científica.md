@@ -1,0 +1,3 @@
+* Energia Pura -- #Fantasia, #FicçãoCientífica, #PrimeVideo
+	* Um adolescente albino, apelidado de Pó, é sensitivo e tem um QI altíssimo. Ele se torna alvo do interesse do líder do grupo de encrenqueiros de uma escola do Texas.
+	* A mulher foi atingida por um raio gravida e deu a luz a ele antes de morrer, criado no porão pelo avó, nunca saiu, mas é um gênio completo e muito diferente dos outros humanos

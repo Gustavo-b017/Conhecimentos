@@ -1,0 +1,1 @@
+Busca em sequencia, não precisa estar ordenado

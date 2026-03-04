@@ -1,0 +1,2 @@
+* Eles Vivem -- #Terror, #FicçãoCientífica,  #Ação, #AppleTV
+	* John Nada é um homem desempregado que anda pelas ruas da cidade procurando algo para fazer. Um dia, ele encontra um óculos de sol e, por meio deles, consegue enxergar a face verdadeira das pessoas.

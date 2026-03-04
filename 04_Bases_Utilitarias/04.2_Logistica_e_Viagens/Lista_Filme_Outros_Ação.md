@@ -1,0 +1,2 @@
+* Rush: No Limite da Emoção -- #Ação, #Esporte, #PrimeVideo 
+	* O mundo sexy e glamouroso da Fórmula 1 é mobilizado principalmente pela rivalidade existente entre os pilotos Niki Lauda e James Hunt nos anos 1970. Eles possuíam características bem distintas: enquanto Lauda era metódico e brilhante, Hunt adotava um estilo mais despojado, típico de um playboy.

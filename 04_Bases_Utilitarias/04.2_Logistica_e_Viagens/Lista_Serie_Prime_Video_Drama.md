@@ -1,0 +1,2 @@
+* Shame -- #Libertino , #Drama, #PrimeVideo 
+	* Brandon é um homem apático de 30 e poucos anos, bem-sucedido e solitário, que não pensa em manter um relacionamento com ninguém. Sua vida se resume à busca do prazer sexual. Porém, sua rotina muda com a chegada da irmã Sissy.

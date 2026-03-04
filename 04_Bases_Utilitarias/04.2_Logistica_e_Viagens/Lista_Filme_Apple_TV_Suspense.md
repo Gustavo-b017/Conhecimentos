@@ -1,0 +1,2 @@
+* Linha Reta (The Hummingbird Project) -- #Suspense, #AppleTV
+	* Dois primos metidos a malandros, Anton (Alexander Skarsgård) e Vincent (Jesse Eisenberg), vivem de perigosas transações da bolsa de valores. Seu sonho é construir um cabo de fibra óptica entre o Kansas e Nova Jersey, que os daria vantagem em suas transações, os fazendo milionários. Mas sua jornada para a riqueza não será tão fácil assim, especialmente se depender de sua antiga chefe, Eva (Salma Hayek).

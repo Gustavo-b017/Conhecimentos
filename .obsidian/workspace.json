@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "be0fe160ae01f52c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b22b73386cdc85b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15229fb4d8783142",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8becdb0d2dbd7d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8a4481c94eb2c53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3572b94ed3812db6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "fddfa9a904f731ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#tipo/receita",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "0c97e40634de0cf9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300.5
+  },
+  "right": {
+    "id": "eefcc7171b08fe8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4c7ef2a96ec2aeb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1f413973f19792a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8e66481310c608a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "d8535242f0dc05b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Livros/A Arte da Sabedoria - Baltasar Gracián/Ensinamentos/18. Esforço e capacidade.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 18. Esforço e capacidade"
+            }
+          },
+          {
+            "id": "3231e3cc9d395718",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "FIAP/Java/2° Semestre/Aula 4 -- 10-3-25.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Aula 4 -- 10-3-25"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Criar nova base": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir importador Markdown": false,
+      "workspaces:Gerenciar leiautes da área de trabalho": false
+    }
+  },
+  "active": "3572b94ed3812db6",
+  "lastOpenFiles": [
+    "01_A_Forja/Rede_Digital_Twins_Emulation.md",
+    "01_A_Forja/Rede_Streaming_Telemetry.md",
+    "01_A_Forja/Rede_NetDevOps_CICD.md",
+    "99_Arquivo_Morto/Estagio - Gustavo Bezerra Assumcao.pdf",
+    "99_Arquivo_Morto/Estagio - Gustavo Bezerra Assumcao.docx.pdf",
+    "00_Captura_e_Caos/redes profundo.md",
+    "01_A_Forja/Cyber_Diameter.md",
+    "01_A_Forja/Cyber_SDA_SGT.md",
+    "01_A_Forja/Rede_GSLB.md",
+    "01_A_Forja/Rede_QoS_Avancado.md",
+    "01_A_Forja/Rede_P4_Lang.md",
+    "01_A_Forja/Rede_Network_Slicing.md",
+    "01_A_Forja/Rede_O_RAN.md",
+    "01_A_Forja/Rede_5G_CUPS_e_UPF.md",
+    "01_A_Forja/Rede_5G_SBA.md",
+    "01_A_Forja/Rede_TI_LFA.md",
+    "01_A_Forja/Rede_Flex_Algo.md",
+    "01_A_Forja/Rede_SRv6_uSID.md",
+    "01_A_Forja/Rede_Segment_Routing_SRv6.md",
+    "01_A_Forja/Rede_SyncE.md",
+    "01_A_Forja/Rede_PTP_1588.md",
+    "01_A_Forja/Rede_FlexE.md",
+    "01_A_Forja/Rede_OTN.md",
+    "01_A_Forja/Rede_DWDM_e_ROADM.md",
+    "Java_Rest_Controller.md",
+    "01_A_Forja/Java_Rest_Controller.md",
+    "01_A_Forja/Rede_SAN.md",
+    "01_A_Forja/Rede_QoS.md",
+    "02_Constelacoes/MOC A Ponte FIAP - Do Acadêmico ao Abismo Sênior",
+    "refatorar_zettelkasten.py",
+    "99_Arquivo_Morto/42--FRASES--IRRESISTÍVEIS--_20241003_093551_0000.pdf",
+    "04_Bases_Utilitarias/04.3_Idiomas_e_Linguistica/Aula_01_A_Introducao.pdf",
+    "04_Bases_Utilitarias/04.3_Idiomas_e_Linguistica/Aula_01_B_Pinyin.pdf",
+    "04_Bases_Utilitarias/04.3_Idiomas_e_Linguistica/Aula_01_C_Tracos.pdf",
+    "99_Arquivo_Morto/Como-Vencer-Um-Debate-Sem-Precisar-Ter-Razão.pdf",
+    "04_Bases_Utilitarias/04.3_Idiomas_e_Linguistica/vocubulario.pdf",
+    "Conhecimentos/Untitled.canvas",
+    "Sem título.canvas"
+  ]
+}
