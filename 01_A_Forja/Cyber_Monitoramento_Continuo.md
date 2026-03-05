@@ -6,20 +6,20 @@ tags:
   - status/3_incubadora
 ---
 
-### Cyber_Monitoramento_Continuo
+# Cyber_Monitoramento_Continuo
 
-#### 1. O Axioma (A Definição Rígida)
-**O que é:** O Monitoramento Contínuo é a estratégia arquitetural de observar ininterruptamente os logs, o tráfego de rede e o comportamento do usuário (UEBA) por meio de ferramentas automatizadas (como sistemas SIEM) para detectar e responder a incidentes em tempo real.
+## 1. O Axioma (A Definição Rígida)
+> **O que é:** O Monitoramento Contínuo é a estratégia arquitetural de observar ininterruptamente os logs, o tráfego de rede e o comportamento do usuário (UEBA) por meio de ferramentas automatizadas (como sistemas SIEM) para detectar e responder a incidentes em tempo real.
 
-#### 2. A Desconstrução (Mecânica e Pontos de Falha)
+## 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Em vez de olhar para a segurança como um check-list estático (ex: "configuramos o firewall há um ano e esquecemos"), o monitoramento contínuo coleta telemetria de todos os *endpoints*, roteadores e sistemas em nuvem de forma simultânea. Soluções como o *Security Information and Event Management* (SIEM) agregam esses logs em uma única tela e disparam alertas caso haja anomalias.
 *   **O Problema que Resolve:** Elimina o tempo de cegueira (*Dwell Time*) e cria [[Mindset_Consciencia_Situacional]]. Sem ele, um atacante pode permanecer escondido e exfiltrando dados de uma rede por meses após ultrapassar a barreira inicial. O monitoramento rastreia a "Movimentação Lateral" do invasor.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O grande problema sistêmico do monitoramento contínuo é a "Fadiga de Alerta". Sistemas de detecção mal configurados geram dezenas de milhares de alertas inúteis por dia (falsos-positivos). A equipe do SOC (Security Operations Center) passa a ignorar a tela de logs, transformando o investimento multimilionário em SIEM num buraco negro cego. Exige-se inteligência de calibração sênior para que o alarme toque apenas quando o sangue digital for real (acionando o [[Cyber_Incident_Response|Resposta a Incidentes]] e analisando o tráfego via [[Rede_Modelo_OSI]]).
 
-#### 3. As Sinapses (Conexões Livres e Interdisciplinares)
+## 3. As Sinapses (Conexões Livres e Interdisciplinares)
 O [[Cyber_Monitoramento_Continuo]] é exatamente a configuração do **Panóptico de Foucault** aplicado à tecnologia. Você construiu a muralha (o [[Rede_Firewall]]) controlando as [[Rede_Portas_Logicas]] e treinou os guardas (a [[Cyber_ISO_27001]]). Agora, o SIEM atua como a torre de vigia central no meio do pátio, que possui holofotes rotativos sobre todos os servidores e usuários simultaneamente. O invasor, mesmo disfarçado com credenciais roubadas, não sabe quando o holofote do algoritmo baterá nele por ele tentar acessar um arquivo às 3h da manhã (Anomalia Comportamental detectada nos logs de [[Rede_DNS]] ou tráfego [[Rede_UDP]] suspeito).
 
-#### 4. Pragmatismo Aplicado (Código e Implementação)
+## 4. Pragmatismo Aplicado (Código e Implementação)
 A fundação do monitoramento contínuo exige forçar o envio de eventos (Syslog) de todos os roteadores isolados para um servidor central unificado e protegido de SIEM (para que o hacker não possa apagar suas pegadas locais).
 ```bash
 # Vendor: Cisco (IOS/XE)

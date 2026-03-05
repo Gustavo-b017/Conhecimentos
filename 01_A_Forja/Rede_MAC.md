@@ -5,21 +5,21 @@ tags:
 - afinidade/media
 - status/3_incubadora
 ---
-### Rede_MAC
-#### 1. O Axioma (A Definição Rígida)
-**O que é:** O MAC (Media Access Control) é um endereço físico, imutável e exclusivo de 48 bits gravado no hardware da placa de rede (NIC). Ele atua na Camada 2 (Enlace) para garantir a entrega de dados entre dispositivos no mesmo segmento físico de rede.
+# Rede_MAC
+## 1. O Axioma (A Definição Rígida)
+> **O que é:** O MAC (Media Access Control) é um endereço físico, imutável e exclusivo de 48 bits gravado no hardware da placa de rede (NIC). Ele atua na Camada 2 (Enlace) do [[Rede_Modelo_OSI]] para garantir a entrega de dados entre dispositivos no mesmo segmento físico de rede.
 
-#### 2. A Desconstrução (Mecânica e Pontos de Falha)
+## 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** 
     * O dispositivo emissor encapsula os dados em um *Frame* que contém o MAC de origem e o MAC de destino.
     * Switches (equipamentos de Camada 2) leem o MAC de destino e enviam o pulso elétrico/óptico apenas para a porta física correta, isolando colisões.
 *   **O Problema que Resolve:** O roteamento lógico (IP) leva a informação até o prédio correto, mas era impossível saber qual placa de silício específica conectada aos cabos daquele andar deveria processar os bits. O MAC resolve a entrega final local.
 *   **Visão Sênior (Vulnerabilidades/Escala):** Inseguro por design. É vulnerável a *MAC Spoofing* (onde um atacante clona via software o endereço físico de uma máquina legítima para burlar filtros) e *MAC Flooding* (onde milhares de MACs falsos são injetados para travar a tabela de memória do switch, forçando-o a vazar tráfego para todas as portas como um *hub* burro).  
 
-#### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O MAC é o chassi do veículo cravado no metal, enquanto o [[Rede_IP]] é a placa de licença atrelada à cidade atual. Se você viaja com seu laptop, o "chassi" (MAC) permanece o mesmo, mas sua "placa" (IP) muda. Na gastronomia, o MAC atua como o selo de "Denominação de Origem Controlada" de um Champagne original, indicando irrevogavelmente a fábrica de onde aquele chip saiu. Sem o [[Rede_ARP]], seria impossível para a rede lógica IP encontrar esse chassi físico.
+## 3. As Sinapses (Conexões Livres e Interdisciplinares)
+O MAC é o chassi do veículo cravado no metal, enquanto o [[Rede_IP]] é a placa de licença atrelada à cidade atual. Se você viaja com seu laptop, o "chassi" (MAC) permanece o mesmo, mas sua "placa" (IP) muda. É este "chassi" que o [[Rede_ARP]] procura para entregar pacotes IPv4 e que o [[Rede_SLAAC]] usa como base para gerar endereços IPv6. Na gastronomia, o MAC atua como o selo de "Denominação de Origem Controlada" de um Champagne original, indicando irrevogavelmente a fábrica de onde aquele chip saiu.
 
-#### 4. Pragmatismo Aplicado (Código e Implementação)
+## 4. Pragmatismo Aplicado (Código e Implementação)
 Para extrair e analisar o endereço físico (MAC) das placas de rede no terminal local:
 
 **No Windows:**

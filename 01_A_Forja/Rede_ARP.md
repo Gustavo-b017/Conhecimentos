@@ -4,10 +4,6 @@ tags:
 - contexto/dev/infra
 - afinidade/media
 - status/3_incubadora
-  - tipo/conceito
-  - contexto/dev/infra
-  - afinidade/media
-  - status/4_evergreen
 ---
 
 # Rede_ARP

@@ -6,11 +6,11 @@ tags:
 - status/3_incubadora
 ---
 
-### Rede_NAT
-#### 1. O Axioma (A Definição Rígida)
-**O que é:** Network Address Translation (NAT) é o mecanismo em roteadores e firewalls que traduz os endereços IP privados/internos de uma rede para um único IP público válido, e vice-versa, ocultando a estrutura interna da internet pública.
+# Rede_NAT
+## 1. O Axioma (A Definição Rígida)
+> **O que é:** Network Address Translation (NAT) é o mecanismo em roteadores e firewalls que traduz os endereços [[Rede_IP]] privados/internos de uma rede para um único IP público válido, e vice-versa, ocultando a estrutura interna da internet pública.
 
-#### 2. A Desconstrução (Mecânica e Pontos de Falha)
+## 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** 
     *   **Static NAT:** Mapeamento 1 para 1 (1 IP Privado = 1 IP Público dedicado). 
     *   **Dynamic NAT:** Múltiplos IPs privados se revezando num pequeno *pool* (tanque) de IPs públicos.
@@ -18,10 +18,10 @@ tags:
 *   **O Problema que Resolve:** O apocalipse do IPv4. Só existem ~4 bilhões de endereços públicos IP no mundo. Existem bilhões a mais de dispositivos. O NAT/PAT resolveu isso permitindo que uma empresa inteira (ou a sua casa com 20 dispositivos Wi-Fi) gaste apenas 1 IP na internet. A solução definitiva, porém, é o [[Rede_IPv6]].
 *   **Visão Sênior (Vulnerabilidades/Escala):** NAT é um pesadelo de performance para roteadores (esgota a RAM guardando a tabela de estados das portas ativas). Além disso, quebra o sagrado modelo "Ponta-a-Ponta" da internet. Ferramentas como o VoIP (Protocolo SIP), FTP Ativo ou VPNs sofrem enormemente com NAT e exigem remendos adicionais como ALGs (Application Layer Gateways) para não terem os pacotes corrompidos durante a travessia. 
 
-#### 3. As Sinapses (Conexões Livres e Interdisciplinares)
+## 3. As Sinapses (Conexões Livres e Interdisciplinares)
 O NAT atua como a central de PABX de uma corporação. Você tem 500 funcionários ligando para clientes externos. Todos os clientes veem no identificador de chamadas o mesmo número geral (IP Público). Quando o cliente retorna a ligação, o PABX olha para sua tabela de anotações (Portas Lógicas) e sabe que a conversa X na verdade pertence ao "Ramal 14" (IP Privado interno). O NAT/PAT faz isso, só que com milhares de bytes por segundo. Isso tem um efeito colateral excelente de "Segurança por Obscuridade": hackers não conseguem atacar seu celular diretamente, pois do lado de fora, a internet só enxerga o roteador blindado e não a rede atrás dele.
 
-#### 4. Pragmatismo Aplicado (Código e Implementação)
+## 4. Pragmatismo Aplicado (Código e Implementação)
 Para entender se você está por trás de um NAT duplo (como em redes de operadora, CGNAT) e auditar o roteamento local:
 ```bash
 # Descubra seu IP Privado interno (ex: 192.168.1.10)
