@@ -9,11 +9,11 @@ tags:
 ### Java_Entity
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** Uma Entidade (`@Entity`) é uma classe de domínio Java leve (POJO) cujos atributos são mapeados cirurgicamente para refletir a estrutura de colunas e linhas de uma tabela em um banco de dados relacional.
+**O que é:** Uma Entidade (`@Entity`) é uma classe de domínio Java leve (POJO) cujos atributos são mapeados cirurgicamente para refletir a estrutura de colunas e linhas de uma tabela em um [[DB_Relacional|banco de dados relacional]].
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Através de anotações metadadas. `@Entity` avisa que a classe é gerenciada pelo banco. `@Table` define o nome do destino. `@Id` define a Chave Primária (PK) obrigatória, e `@GeneratedValue` automatiza a contagem do ID (Auto-Incremento).
-*   **O Problema que Resolve:** Permite que dados que vivem de forma abstrata na memória do servidor ganhem estado físico e duradouro no disco (Persistência), sem a necessidade de converter cada variável manualmente para o formato SQL antes de enviá-los ao banco.
+*   **O Problema que Resolve:** Permite que dados que vivem de forma abstrata na memória do servidor ganhem estado físico e duradouro no disco (Persistência), sem a necessidade de converter cada variável manualmente para o formato [[Lang_SQL|SQL]] antes de enviá-los ao banco.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O crime arquitetural mais comum e letal nas empresas é usar a [[Java_Entity]] como o objeto de transporte na web. Se o programador expõe a Entidade direto no `Controller` HTTP em vez de isolá-la atrás de um [[Arquitetura_DTO]], ele abre a porta para um *Mass Assignment Attack*. O hacker intercepta o JSON, adiciona a chave secreta `"admin": true`, e o JPA salva o atributo injetado direto na tabela do banco, dando acesso total ao invasor. Entidades não cruzam a fronteira da rede; elas vivem trancadas no cofre.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
@@ -43,4 +43,4 @@ public class Cliente {
 
 5. História do Conteúdo
 
-Antes do Java 5 introduzir o recurso de "Anotações" em 2004, descrever como um objeto viraria uma tabela envolvia redigir aterradores e intermináveis arquivos XML (`hibernate.cfg.xml`). Um erro de digitação de uma letra no arquivo XML quebrava o sistema sem que o compilador avisasse. A anotação `@Entity` trouxe a configuração visual para perto do campo exato a que ela se refere, matando a configuração externa em texto morto.
+Antes do Java 5 introduzir o recurso de "Anotações" em 2004, descrever como um objeto viraria uma tabela envolvia redigir aterradores e intermináveis arquivos XML (`hibernate.cfg.xml` do [[Java_Hibernate|Hibernate]]). Um erro de digitação de uma letra no arquivo XML quebrava o sistema sem que o compilador avisasse. A anotação `@Entity` trouxe a configuração visual para perto do campo exato a que ela se refere, matando a configuração externa em texto morto.

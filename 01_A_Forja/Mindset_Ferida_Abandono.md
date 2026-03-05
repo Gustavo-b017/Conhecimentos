@@ -18,7 +18,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 [[Tempo de Qualidade]]
 
 #### Traço tóxico:
-* Isolamento
+* [[Mindset_Solitude_vs_Solidao|Isolamento]]
 * Apego ansioso
 * Ciúmes
 * Possessividade ( achar que a outra pessoa me pertence )

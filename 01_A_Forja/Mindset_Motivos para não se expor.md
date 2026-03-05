@@ -10,4 +10,4 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * Mantem o seu destaque, não ensine os outros o seu segredos (não se deixe de ser dispensável)
 
-* Você pode perder todo o sucesso que esta conquistando
+* Você pode perder todo o [[Mindset_Sucesso|sucesso]] que esta conquistando

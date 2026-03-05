@@ -11,7 +11,7 @@ tags:
 **O que é:** O Open Source Intelligence (OSINT) é a técnica de reconhecimento passivo focada em coletar e correlacionar informações sobre um alvo, sistema ou organização através de fontes públicas e abertas, operando sem realizar nenhuma interação direta com a infraestrutura da vítima.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Em vez de enviar pacotes suspeitos contra um [[Rede_Firewall]], o analista (ou atacante) extrai dados de registros públicos de [[Rede_DNS|DNS]], varreduras do Shodan, repositórios esquecidos no GitHub, redes sociais de funcionários e metadados de PDFs públicos da empresa.
+*   **Como Funciona:** Em vez de enviar pacotes suspeitos contra um [[Rede_Firewall]], o analista (ou atacante) extrai dados de registros públicos de [[Rede_DNS|DNS]], varreduras do [[Ferramenta_Shodan|Shodan]], repositórios esquecidos no [[Ferramenta_GitHub|GitHub]], redes sociais de funcionários e [[Dados_Metadados|metadados]] de PDFs públicos da empresa.
 * **O Problema que Causa:** Para o atacante, resolve o problema da detecção precoce. O reconhecimento ativo dispara o alarme do [[Cyber_IDS]]. O OSINT mapeia a superfície de ataque no mais absoluto silêncio.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O volume de lixo digital é o gargalo. Profissionais juniores acumulam terabytes de dados irrelevantes. OSINT sênior não é sobre extrair dados, é sobre inteligência decisória. A vulnerabilidade aqui é organizacional: as empresas "sangram" informações confidenciais constantemente na internet sem perceber, tornando-se o próprio vetor do ataque.
 

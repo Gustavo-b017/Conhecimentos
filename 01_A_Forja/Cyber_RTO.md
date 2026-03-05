@@ -29,4 +29,4 @@ Mitigação Exigida: Réplica de Leitura/Escrita Ativa-Ativa na AWS (usando Mult
 
 5. História do Conteúdo
 
-Criado no berço dos planejamentos de Continuidade de Negócios (Business Continuity Planning - BCP) do setor financeiro nos anos 1980 e padronizado em normas como a ISO 22301 e materiais do [[Cyber_PCI_DSS]]. Diretores de bancos precisavam de uma régua para calcular o quanto custava cada segundo do sistema inoperante versus o quanto custava manter um computador extra desligado esperando uma emergência.
+Criado no berço dos planejamentos de Continuidade de Negócios (Business Continuity Planning - BCP) do setor financeiro nos anos 1980 e padronizado em normas como a [[Cyber_ISO_22301|ISO 22301]] e materiais do [[Cyber_PCI_DSS]]. Diretores de bancos precisavam de uma régua para calcular o quanto custava cada segundo do sistema inoperante versus o quanto custava manter um computador extra desligado esperando uma emergência.

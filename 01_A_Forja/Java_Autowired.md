@@ -9,7 +9,7 @@ tags:
 ### Java_Autowired
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** `@Autowired` é a anotação do Spring que aciona a [[Java_IoC|Injeção de Dependência]], forçando o contêiner a procurar na memória o [[Java_Bean]] exato que a classe precisa e injetá-lo automaticamente no código.
+**O que é:** `@Autowired` é a anotação do Spring que aciona a [[Java_IoC|Injeção de Dependência]], forçando o contêiner a procurar na memória o [[Java_Bean|Bean]] exato que a classe precisa e injetá-lo automaticamente no código.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Quando a aplicação encontra essa anotação, o Spring busca na memória um Bean que corresponda ao "Tipo" (Classe/Interface) exigido. Se houver mais de um Bean do mesmo tipo, ele exige um desempate usando `@Primary` ou `@Qualifier("nome")`.
@@ -20,7 +20,7 @@ tags:
 O `@Autowired` é o **Duto de Oxigênio do Traje Espacial**. O astronauta (a sua Classe) não sabe como a máquina cria o ar (o Operador `new`). Ele apenas tem um conector padrão no capacete (O Construtor). A anotação `@Autowired` é o sinal verde para o sistema da espaçonave engatar a mangueira e injetar o ar vital no traje do astronauta de forma invisível para que ele possa operar fora da nave (Executar a Regra de Negócio).
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-A diferença clara entre a injeção amadora e a exigida por arquitetos (Geralmente enxugada usando as anotações do Lombok `@RequiredArgsConstructor` para compilar o código limpo):
+A diferença clara entre a injeção amadora e a exigida por arquitetos (Geralmente enxugada usando as anotações do [[Java_Lombok|Lombok]] `@RequiredArgsConstructor` para compilar o código limpo):
 ```java
 // ❌ ANTI-PADRÃO: Injeção por Campo (Acoplamento severo ao Spring)
 @RestController

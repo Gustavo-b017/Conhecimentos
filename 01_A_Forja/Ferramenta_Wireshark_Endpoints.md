@@ -12,7 +12,7 @@ tags:
 **O que é:** O painel de Endpoints é a interface do [[Ferramenta_Wireshark|Wireshark]] que lista as estatísticas individuais de cada endereço de hardware (MAC) ou rede (IPv4/IPv6, TCP/UDP) que emitiu ou recebeu dados durante uma sessão.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-*   **Como Funciona:** Ele extrai uma lista limpa de todos os "nós" da rede. Mostra de forma isolada quantos pacotes foram transmitidos (Tx) e quantos foram recebidos (Rx) por cada [[Rede_IP|IP]] específico.
+*   **Como Funciona:** Ele extrai uma lista limpa de todos os "nós" da rede (IPv4/IPv6, [[Rede_TCP|TCP]]/[[Rede_UDP|UDP]]). Mostra de forma isolada quantos pacotes foram transmitidos (Tx) e quantos foram recebidos (Rx) por cada [[Rede_IP|IP]] específico ou endereço de hardware ([[Rede_MAC_Address|MAC]]).
 *   **O Problema que Resolve:** Isola o "Paciente Zero". Quando a rede cai devido a um [[Cyber_Ataque_DDoS]] interno ou a um [[Cyber_Malware_Worm]], o painel de Endpoints aponta imediatamente qual IP da máquina local está disparando 50 mil conexões por segundo de forma alucinada.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A genialidade aqui está na identificação de Botnets e C2 (Command & Control). Se você organizar a lista pela coluna de Endpoints Remotos (IPv4) baseada na menor quantidade de pacotes (ex: IPs que só mandaram 2 pacotes esporádicos o dia todo), você localiza os sinais de "Beaconing" (Sinal de vida) que malwares (como [[Cyber_Malware_Trojan|Trojans]]) enviam para servidores na Rússia ou China, que normalmente passariam despercebidos no oceano de tráfego legítimo.
 

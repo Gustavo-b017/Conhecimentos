@@ -9,10 +9,10 @@ tags:
 ### Cyber_WireGuard
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** O WireGuard é um protocolo e software de túnel de VPN estado da arte forjado com código hiper-enxuto que roda diretamente no kernel do sistema operacional, revolucionando a velocidade e extinguindo a complexidade gerencial das conexões remotas.
+**O que é:** O WireGuard é um protocolo e software de túnel de VPN estado da arte forjado com código hiper-enxuto que roda diretamente no [[OS_Kernel|kernel]] do sistema operacional, revolucionando a velocidade e extinguindo a complexidade gerencial das conexões remotas.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** Esqueça certificados longos ou servidores complexos. Ele funciona puramente pelo mapeamento de "Cryptokey Routing". Cada lado da conexão recebe uma chave pública matemática e a vincula a um [[Rede_IP]]. Se o pacote chegar validado com a chave correta, o túnel é acionado no núcleo físico do processamento.
+- **Como Funciona:** Esqueça certificados longos ou servidores complexos. Ele funciona puramente pelo mapeamento de "Cryptokey Routing". Cada lado da conexão recebe uma [[Cyber_Criptografia_Chave_Publica|chave pública]] matemática e a vincula a um [[Rede_IP]]. Se o pacote chegar validado com a chave correta, o túnel é acionado no núcleo físico do processamento.
 - **O Problema que Resolve:** A exaustão da engenharia legada. O OpenVPN (uma [[Cyber_VPN_Mecanica|VPN]] tradicional) tem milhares de linhas de código obsoleto e gera enorme *overhead* de processamento para criptografar pacotes. O WireGuard resolve isso sendo absurda e agressivamente menor (menos atrito no processador) e operando sobre o veloz [[Rede_UDP]].
 - **Visão Sênior (Vulnerabilidades/Escala):** Com aproximadamente 4.000 linhas de código, sua superfície de exploração é ridiculamente pequena, permitindo que pesquisadores o auditem de forma total. Porém, sua premissa técnica exige que os IPs reais dos usuários fiquem cravados na memória RAM do servidor, gerando choques arquiteturais em empresas de privacidade estrita (como a NordVPN), exigindo gambiarras externas no código para garantir que registros (logs) não fiquem persistidos em caso de invasão policial do hardware.
 

@@ -8,7 +8,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 	* Segundo, por *imitação*, o mais **fácil**;
 	* Terceiro, por *experiencia*, o mais **amargo**;
 
-* Confie desconfiando
+* [[Social_Confianca|Confie]] desconfiando
 
 * Não confie em ninguém cegamente
 
@@ -36,7 +36,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * Comprimente com a mão direita, mas segure uma pedra na mão esquerda
 
-* Entenda a diferença entre poder e dinheiro. Dinheiro é a bela mansão na praia de Malibu, que só dura 10 anos. Poder é o castelo de pedra que resiste o passar dos séculos
+* Entenda a diferença entre [[Conceito_Poder|poder]] e dinheiro. Dinheiro é a bela mansão na praia de Malibu, que só dura 10 anos. [[Conceito_Poder|Poder]] é o castelo de pedra que resiste o passar dos séculos
 
 * Terra conquistada não e sagrada
 
@@ -48,7 +48,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * As vezes o mundo não precisa de um herói, as vezes precisa de um monstro
 
-* Para enganar seus inimigos, você primeiro precisa enganar seus aliados 
+* Para enganar seus inimigos, você primeiro precisa enganar seus aliados ([[Estrategia_Engano]])
 
 * Quem com ferro fere, com o ferro será ferido
 

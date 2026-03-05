@@ -73,9 +73,9 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * As vezes o mundo não precisa de um herói, as vezes precisa de um monstro
 
-* É difícil fracassar, mas é pior nunca ter tentado ter sucesso
+* É difícil [[Mindset_Fracasso|fracassar]], mas é pior nunca ter tentado ter [[Mindset_Sucesso|sucesso]]
 
-* Para enganar seus inimigos, você primeiro precisa enganar seus aliados 
+* Para enganar seus inimigos, você primeiro precisa enganar seus aliados ([[Estrategia_Engano]])
 
 * Quem com ferro fere, com o ferro será ferido
 

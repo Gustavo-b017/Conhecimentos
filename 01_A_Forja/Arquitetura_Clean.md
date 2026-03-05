@@ -14,13 +14,13 @@ tags:
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** É governada por uma lei inviolável: a *Regra de Dependência*, que dita que as dependências do código-fonte devem apontar exclusivamente para o centro. No núcleo estão as *Entidades* (regras puras) e *Casos de Uso* (orquestração). Nas bordas externas ficam a Interface de Usuário (Web) e a Persistência (Banco de Dados), tratadas como meros "detalhes" periféricos.
 *   **O Problema que Resolve:** Elimina o acoplamento tecnológico destrutivo. Se a sua empresa decidir trocar o banco de dados da Oracle por MongoDB, ou o framework Spring por Quarkus, o núcleo de negócio permanece intacto e funcional, pois ele independe de agências externas.
-*   **Visão Sênior (Vulnerabilidades/Escala):** A Arquitetura Limpa sofre de *Over-engineering* (excesso de engenharia) precoce. Exige a criação de dezenas de interfaces, mapeadores e DTOs para que a informação consiga atravessar as fronteiras sem quebrar a Regra de Dependência. Aplicar isso em um microserviço de CRUD simples destrói a produtividade do time e consome orçamento desnecessário.
+*   **Visão Sênior (Vulnerabilidades/Escala):** A Arquitetura Limpa sofre de *Over-engineering* (excesso de engenharia) precoce. Exige a criação de dezenas de interfaces, mapeadores e [[Arquitetura_DTO|DTOs]] para que a informação consiga atravessar as fronteiras sem quebrar a Regra de Dependência. Aplicar isso em um microserviço de CRUD simples destrói a produtividade do time e consome orçamento desnecessário.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
 A [[Arquitetura_Clean]] é o design rigoroso de um **Laboratório de Biossegurança Nível 4 (BSL-4)**. A pesquisa vital (O Núcleo/Entidades) fica no centro geográfico do prédio, isolada do mundo externo. Se um terremoto destruir a portaria (Mudança de Framework) ou se faltar água na rua (Queda do Banco de Dados), as portas de vácuo das camadas intermediárias trancam o laboratório central para que a amostra principal não seja contaminada.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-A aplicação tática da regra de dependência. O *Caso de Uso* interno (Service) não pode invocar o Banco de Dados diretamente (isso apontaria a dependência para fora). Ele depende de uma Abstração (Interface).
+A aplicação tática da regra de dependência. O *Caso de Uso* interno (Service) não pode invocar o Banco de Dados diretamente (isso apontaria a dependência para fora). Ele depende de uma Abstração (Interface) que será implementada pelo [[Java_SpringDataJPA|Spring Data JPA]].
 ```java
 // Núcleo (Não conhece o Spring Data JPA ou SQL)
 public interface UsuarioRepository {

@@ -9,7 +9,7 @@ tags:
 ### Arquitetura_HATEOAS
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** O *Hypermedia As The Engine Of Application State* (HATEOAS) representa o nível máximo e mais refinado (Nível 3) de maturidade arquitetural do design [[Arquitetura_REST|REST]], onde a resposta da API injeta ativamente os links das próximas ações válidas que o cliente pode realizar com aquele recurso.
+**O que é:** O *Hypermedia As The Engine Of Application State* (HATEOAS) representa o nível máximo e mais refinado (Nível 3) de maturidade arquitetural do design [[Arquitetura_REST|REST]], onde a resposta da [[Arquitetura_API|API]] injeta ativamente os links das próximas ações válidas que o cliente pode realizar com aquele recurso.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 - **Como Funciona:** O frontend não precisa "hardcodar" (cravar no código) as URLs ou adivinhar a regra de negócio. Se ele dá um `GET` num recurso, o servidor retorna o dado + um bloco [[Front_JSON|JSON]] chamado `_links` (padrão HAL) informando que o cliente está autorizado, naquele estado, a acessar as rotas de `editar` ou `excluir`.
@@ -17,7 +17,7 @@ tags:
 - **Visão Sênior (Vulnerabilidades/Escala):** É amplamente aclamado na academia e brutalmente ignorado no mercado sênior de alta escala. O motivo? Custo de CPU. Calcular dinamicamente quais links o usuário X tem permissão de enxergar sobre o recurso Y para cada requisição que chega aumenta drasticamente a latência e o payload trafegado. Por isso, a grande maioria do mercado trava no "Nível 2" e usa cache agressivo.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
-O HATEOAS é o design de **um Jogo de Videogame Moderno com Interface Dinâmica**. Quando você (o cliente) entra em uma sala, você não precisa ler um manual PDF gigante (o Swagger/OpenAPI) para saber o que fazer. Se você olha para a porta, aparece na tela "Aperte X para abrir" (O Link HATEOAS fornecido pelo servidor). Se a porta estiver trancada pelo servidor, a opção do botão simplesmente não é enviada para a sua tela e você nem tem a chance de tentar uma ação que retornaria falha.
+O HATEOAS é o design de **um Jogo de Videogame Moderno com Interface Dinâmica**. Quando você (o cliente) entra em uma sala, você não precisa ler um manual PDF gigante (o [[Ferramenta_Swagger|Swagger]]/OpenAPI) para saber o que fazer. Se você olha para a porta, aparece na tela "Aperte X para abrir" (O Link HATEOAS fornecido pelo servidor). Se a porta estiver trancada pelo servidor, a opção do botão simplesmente não é enviada para a sua tela e você nem tem a chance de tentar uma ação que retornaria falha.
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
 O padrão de saída utilizando a especificação estrita de *Hypertext Application Language* (HAL) para guiar o cliente:

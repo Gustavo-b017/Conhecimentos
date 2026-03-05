@@ -12,6 +12,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Diferente dos firewalls de rede que lidam com portas e IPs, o WAF atua exclusivamente na Camada 7 (Aplicação). Ele intercepta o tráfego HTTP antes de chegar ao servidor web, dissecando parâmetros, cabeçalhos, cookies e formulários em busca de padrões de ataques catalogados (como SQL Injection, Cross-Site Scripting - XSS, e ataques do [[Ferramenta_OWASP_ZAP|OWASP Top 10]]).
+*   **Como Funciona:** Diferente dos firewalls de rede que lidam com portas e IPs, o WAF atua exclusivamente na Camada 7 (Aplicação). Ele intercepta o tráfego HTTP antes de chegar ao servidor web, dissecando parâmetros, cabeçalhos, cookies e formulários em busca de padrões de ataques catalogados (como SQL Injection, Cross-Site Scripting - [[Cyber_Ataque_XSS|XSS]], e ataques do [[Ferramenta_OWASP_ZAP|OWASP Top 10]]).
 *   **O Problema que Resolve:** Firewalls como o [[Cyber_Firewall_NGFW]] não entendem a lógica de código de um site web. Se o invasor enviar um código SQL malicioso via porta 443 (HTTPS permitida), o NGFW deixa passar. O WAF entende a linguagem da web e barra o payload tóxico.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O WAF é um inferno operacional para ser calibrado. Em modo rígido, bloqueia usuários legítimos (falsos-positivos) e quebra aplicações de negócio. Em modo frouxo, torna-se inútil. Além disso, hackers seniores fazem *Bypass de WAF* codificando o ataque (ex: *Double URL Encoding* ou injeções fragmentadas) para que a assinatura do WAF não reconheça a ameaça.
 

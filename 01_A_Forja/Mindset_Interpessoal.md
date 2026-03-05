@@ -6,7 +6,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/social, contexto/mindset, afi
 
 * não atribua a malícia na estupidez 
 
-* Traição não é algo que as pessoas fazem, é a situação, por isso evite criar essas situações 
+* [[Social_Traicao|Traição]] não é algo que as pessoas fazem, é a situação, por isso evite criar essas situações 
 
 * A vitória é comemorada na luz, mas conquistada na escuridão
  
@@ -14,11 +14,11 @@ tags: [status/4_evergreen, tipo/conceito, contexto/social, contexto/mindset, afi
 
 * Gratidão não é um sentimento que alivia só a pessoa que o demonstra. Ela também alivia a pessoa que recebe
 
-* Confie desconfiando
+* [[Social_Confianca|Confie]] desconfiando
 
 * Não confie em ninguém cegamente
 
-* Pessoas reagem a duas coisas - **Punição** e **Recompensa**
+* Pessoas reagem a duas coisas - **[[Psicologia_Punicao|Punição]]** e **[[Psicologia_Recompensa|Recompensa]]**
 
 * Quão mais desesperada uma pessoa esta, mais apressada ela fica. E quanto mais apressada, mais desatenta também
 
@@ -30,9 +30,9 @@ tags: [status/4_evergreen, tipo/conceito, contexto/social, contexto/mindset, afi
 
 * O silencio é um amigo que nunca trai
 
-*  Você pode discordar de mim, e eu posso discordar de você... **O que não podemos fazer é perder o respeito um com o outro**
+*  Você pode discordar de mim, e eu posso discordar de você... **O que não podemos fazer é perder o [[Virtude_Respeito|respeito]] um com o outro**
 
-* Algumas pessoas vão te amar apenas enquanto puderem te usar. A lealdade termina quando quando os benefícios acabam
+* Algumas pessoas vão te amar apenas enquanto puderem te usar. A [[Virtude_Lealdade|lealdade]] termina quando quando os benefícios acabam
 
 * O silencio assusta porque você não tem ideia se a pessoa esta sentindo a sua falta ou se ela esta gradualmente aprendendo a te esquecer
 
@@ -66,7 +66,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/social, contexto/mindset, afi
 
 * Amigos verdadeiros são aqueles que te veem chorando e perguntam... quem eu devo matar?
 
-* Lealdade é um presente raro. Você e sortudo se encontra-la
+* [[Virtude_Lealdade|Lealdade]] é um presente raro. Você e sortudo se encontra-la
 
 * Comprimente com a mão direita, mas segure uma pedra na mão esquerda
 
@@ -78,7 +78,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/social, contexto/mindset, afi
 
 * O pensamento é o ensaio da ação
 
-* Para enganar seus inimigos, você primeiro precisa enganar seus aliados 
+* Para enganar seus inimigos, você primeiro precisa enganar seus aliados ([[Estrategia_Engano]])
 
 * Quem com ferro fere, com o ferro será ferido
 

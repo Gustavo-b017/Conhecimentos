@@ -12,7 +12,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Em vez de olhar apenas portas (ex: porta 80 ou 443) como um [[Cyber_Firewall_Stateful]], o NGFW executa DPI (Deep Packet Inspection), destrinchando o payload para identificar o exato aplicativo rodando. Ele sabe a diferença entre o usuário acessar o LinkedIn via HTTPS e o usuário tentar acessar o Facebook na mesma porta HTTPS.
-*   **O Problema que Resolve:** No passado, barrar o Torrent ou bloqueios específicos significava fechar uma porta numérica. Hoje, as aplicações web modernas são fluidas e usam a mesma porta 443 para tudo. O NGFW ignora a porta e avalia a "assinatura comportamental" da aplicação, parando ameaças que transitam disfarçadas.
+*   **O Problema que Resolve:** No passado, barrar o Torrent ou bloqueios específicos significava fechar uma porta numérica. Hoje, as aplicações web modernas são fluidas e usam a mesma porta 443 para tudo. O NGFW ignora a porta e avalia a "assinatura comportamental" da aplicação (diferente do [[Cyber_Firewall_WAF]] que avalia o código da requisição), parando ameaças que transitam disfarçadas.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O licenciamento e hardware de um NGFW são absurdamente caros. Sua vulnerabilidade é o desempenho sob stress: habilitar a inspeção profunda de pacotes criptografados ([[Rede_SSL|SSL Decryption]]), mais o módulo de antivírus de rede (para barrar [[Cyber_Malware_Virus]]), somado ao banco de dados do [[Cyber_IPS]] para detecção de anomalias, pode reduzir a capacidade de tráfego de um roteador de 10 Gbps para míseros 2 Gbps.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

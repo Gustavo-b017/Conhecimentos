@@ -30,4 +30,4 @@ O RPO dita o código de agendamento (Cron) da infraestrutura. Para garantir um R
 
 5. História do Conteúdo
 
-O conceito de RPO foi cimentado na ISO 22301 (Business Continuity Management). Ganhou foco de vida ou morte na última década porque, diferentemente dos desastres naturais (incêndios) que destroem o hardware (afetando o RTO), o Cibercrime moderno (Ransomware) foca em destruir o dado enquanto o hardware continua intacto, fazendo da "frequência do backup" (RPO) a única linha de defesa real contra a falência.
+O conceito de RPO foi cimentado na [[Cyber_ISO_22301|ISO 22301]] (Business Continuity Management). Ganhou foco de vida ou morte na última década porque, diferentemente dos desastres naturais (incêndios) que destroem o hardware (afetando o RTO), o Cibercrime moderno (Ransomware) foca em destruir o dado enquanto o hardware continua intacto, fazendo da "frequência do backup" (RPO) a única linha de defesa real contra a falência.

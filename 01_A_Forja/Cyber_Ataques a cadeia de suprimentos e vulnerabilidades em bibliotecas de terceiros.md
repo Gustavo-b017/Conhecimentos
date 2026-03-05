@@ -1,4 +1,4 @@
-* Conjunto de componentes, bibliotecas, ferramentas e serviços utilizados na construção de [[Software]].
+* Conjunto de componentes, bibliotecas, ferramentas e serviços utilizados na construção de [[Engenharia_Software|Software]].
 * Inclui dependências de terceiros, ambientes de desenvolvimento, repositórios, frameworks e APIs
 
 ### Bibliotecas de terceiros
@@ -8,8 +8,8 @@
 	* react
 * Proprietárias:
 	* SDK
-		* Google
-		* Microsoft
+		* [[BigTech_Google|Google]]
+		* [[BigTech_Microsoft|Microsoft]]
 		* Stripe
 * Gerenciador de pacotes
 	* NPM
@@ -26,7 +26,7 @@
 	* webpack
 	* gradle
 	* make
-	* CI/CD
+	* [[DevOps_CI_CD|CI/CD]]
 		* Github Actions
 		* GitLab CI
 		* Jenkins
@@ -55,25 +55,17 @@
 		* InteliJ
 		* Eclipse
 	* Containeres
-		* Docker
+		* [[Ferramenta_Docker|Docker]]
 		* Podman
 	* Maquinas virtuais 
-		* VirtualBox
-		* VMware
+		* [[Ferramenta_VirtualBox|VirtualBox]]
+		* [[Ferramenta_VMware|VMware]]
 
 
-Ataques a cadeira de suprimentos de software ocorrem quando agentes maliciosos exploram vulnerabilidades em componentes indiretos usado no desenvolvimento ou distribuição de um software
+Ataques a cadeira de suprimentos de software ([[Cyber_Ataque_Supply_Chain]]) ocorrem quando agentes maliciosos exploram vulnerabilidades em componentes indiretos usado no desenvolvimento ou distribuição de um software
 
 
 ### certificações
 ISFS - ka solution
-CHN - pentest
+CHN - [[Cyber_Pentest|pentest]]
 CPENT - EC-Council
-
-
-
-
-
-
-
-

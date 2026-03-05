@@ -36,4 +36,4 @@ O peso estrutural exigido para enviar os mesmos dados que um [[Front_JSON|JSON]]
 
 5. História do Conteúdo
 
-Padronizado pelo W3C em 1998, surgiu da necessidade de extrair o poder do SGML (uma linguagem de marcação colossal e militar da década de 80) e torná-lo utilizável via Web. Durante toda a década de 2000, o XML foi o "Santo Graal" das integrações, até ser esmagado pela cultura de velocidade exigida pelos aplicativos mobile.
+Padronizado pelo [[Org_W3C|W3C]] em 1998, surgiu da necessidade de extrair o poder do [[Lang_SGML|SGML]] (uma linguagem de marcação colossal e militar da década de 80) e torná-lo utilizável via Web. Durante toda a década de 2000, o XML foi o "Santo Graal" das integrações, até ser esmagado pela cultura de velocidade exigida pelos aplicativos mobile.

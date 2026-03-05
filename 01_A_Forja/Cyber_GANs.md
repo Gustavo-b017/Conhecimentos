@@ -9,7 +9,7 @@ tags:
 ### Cyber_GANs
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** As Generative Adversarial Networks (GANs) são uma classe de arquitetura de Inteligência Artificial onde duas redes neurais profundas (um Gerador e um Discriminador) competem em um jogo de soma zero para produzir dados sintéticos virtualmente indistinguíveis da realidade.
+**O que é:** As Generative Adversarial Networks (GANs) são uma classe de arquitetura de [[Tech_IA|Inteligência Artificial]] onde duas [[Tech_Redes_Neurais|redes neurais]] profundas (um Gerador e um Discriminador) competem em um jogo de soma zero para produzir dados sintéticos virtualmente indistinguíveis da realidade.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 - **Como Funciona:** O Gerador tenta criar dados falsos (uma imagem, uma assinatura de rede, um áudio). O Discriminador analisa o dado produzido em comparação com um banco de dados real e tenta decidir se o que ele está vendo é "Real" ou "Falso". O gerador aprende com as falhas apontadas pelo discriminador e aprimora seu código repetitivamente, até que o discriminador não consiga mais notar a fraude.

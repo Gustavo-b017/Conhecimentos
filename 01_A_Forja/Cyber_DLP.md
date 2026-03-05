@@ -28,4 +28,4 @@ grep -E -r -o '[3-11]{3}\.[3-11]{3}\.[3-11]{3}-[3-11]{2}' /home/usuario/document
 
 5. História do Conteúdo
 
-Tornou-se mandatório e vital para corporações após o início da década de 2010, impulsionado agressivamente pelo surgimento das severas leis globais de proteção de dados (como a GDPR na Europa e a LGPD no Brasil). De repente, as empresas poderiam ser multadas em milhões de dólares se vazassem CPFs. O mercado migrou do simples "bloqueio de hackers externos" para o controle obsessivo de "para quem os meus funcionários estão mandando esses e-mails".
+Tornou-se mandatório e vital para corporações após o início da década de 2010, impulsionado agressivamente pelo surgimento das severas leis globais de proteção de dados (como a [[Gov_GDPR|GDPR]] na Europa e a [[Gov_LGPD|LGPD]] no Brasil). De repente, as empresas poderiam ser multadas em milhões de dólares se vazassem CPFs. O mercado migrou do simples "bloqueio de hackers externos" para o controle obsessivo de "para quem os meus funcionários estão mandando esses e-mails".

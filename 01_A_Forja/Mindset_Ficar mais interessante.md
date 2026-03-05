@@ -12,4 +12,4 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * desenvolva uma conversa com calma e tranquilidade
 
-* tenha [[lábia]]
+* tenha [[Social_Labia|lábia]]

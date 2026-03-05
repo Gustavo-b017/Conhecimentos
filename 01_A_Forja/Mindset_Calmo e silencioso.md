@@ -20,6 +20,6 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset, afinidade/pendente]
 
 * Demonstração de confiança, com boa [[Postura]]
 
-* Técnica de respiração, com as técnicas [[Zen]]
+* Técnica de respiração, com as técnicas [[Zen|Zen]]
 
 * Alterar o ritmo da sua respiração, para uma mais calma

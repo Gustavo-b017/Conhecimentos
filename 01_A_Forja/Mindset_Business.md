@@ -14,7 +14,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/carreira, contexto/mindset, a
 
 * Saiba quando desistir
 
-* Pessoas reagem a duas coisas - **Punição** e **Recompensa** ([[Psicologia_Comportamental]])
+* Pessoas reagem a duas coisas - **[[Psicologia_Punicao|Punição]]** e **[[Psicologia_Recompensa|Recompensa]]** ([[Psicologia_Comportamental]])
 
 * Nunca derrote a pessoa com quem quer fazer [[Business_Negociacao|Negócios]]
 
@@ -56,7 +56,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/carreira, contexto/mindset, a
 
 * Os Homens não temem as espadas, e sim os monstros, eles fogem deles
 
-* É difícil fracassar, mas é pior nunca ter tentado ter sucesso
+* É difícil [[Mindset_Fracasso|fracassar]], mas é pior nunca ter tentado ter [[Mindset_Sucesso|sucesso]]
 
 * Para enganar seus inimigos, você primeiro precisa enganar seus aliados ([[Estrategia_Engano]])
 

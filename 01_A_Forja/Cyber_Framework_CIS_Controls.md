@@ -29,4 +29,4 @@ nmap -sn 192.168.1.0/24
 
 5. História do Conteúdo
 
-Originalmente lançado em 2008 pelo SANS Institute em colaboração com o FBI, era conhecido informalmente como o "SANS Top 20". A lista nasceu da frustração de agências do governo americano que notaram que a vasta maioria das violações de dados gigantescas poderiam ter sido evitadas se as vítimas simplesmente tivessem implementado higiene digital básica (como saber quais computadores estão na rede e remover permissões de admin de quem não precisa).
+Originalmente lançado em 2008 pelo SANS Institute em colaboração com o FBI, era conhecido informalmente como o "SANS Top 20". A lista nasceu da frustração de agências do governo americano que notaram que a vasta maioria das violações de dados gigantescas poderiam ter sido evitadas se as vítimas simplesmente tivessem implementado [[Cyber_Higiene_Cibernetica|higiene digital básica]] (como saber quais computadores estão na rede e remover [[Cyber_Privilege_Escalation|permissões de admin]] de quem não precisa).

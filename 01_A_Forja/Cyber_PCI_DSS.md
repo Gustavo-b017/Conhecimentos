@@ -9,7 +9,7 @@ tags:
 ### Cyber_PCI_DSS
 
 #### 1. O Axioma (A Definição Rígida)
-O Payment Card Industry Data Security Standard (PCI-DSS) é uma norma global de segurança e governança obrigatória que impõe requisitos técnicos severos a todas as organizações que armazenam, processam ou transmitem dados de cartões de crédito.
+O Payment Card Industry Data Security Standard (PCI-DSS) é uma norma global de segurança e [[Gov_Governanca|governança]] obrigatória que impõe requisitos técnicos severos a todas as organizações que armazenam, processam ou transmitem dados de cartões de crédito.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 - **Como Funciona:** É um framework com 12 requisitos fundamentais. Omitir o uso de firewalls, armazenar senhas de acesso legado, transitar informações sem criptografia forte ou expor aplicativos a falhas lógicas reprova a empresa instantaneamente em auditorias.
@@ -17,7 +17,7 @@ O Payment Card Industry Data Security Standard (PCI-DSS) é uma norma global de 
 - **Visão Sênior (Vulnerabilidades/Escala):** Não é uma lei governamental, é um contrato privado entre corporações. A falha no PCI-DSS (como continuar rodando servidores com o protocolo quebrado SSL 3.0) gera multas astronômicas. Além disso, a versão moderna do padrão (4.0) exige a instalação de [[Cyber_Firewall_WAF]] em front-ends e a proteção de Client-Side (verificação de JavaScripts de terceiros para evitar ataques de clonagem de tela como o *Magecart*).
 
 #### 3. As Sinapses (Conexões Livres)
-O [[Cyber_PCI_DSS]] atua como a **Vigilância Sanitária do E-commerce**. Não importa o quão inovador seja o seu restaurante ou o quão bonito seja o prato. Se a carne for armazenada crua e aberta na bancada (Dados em texto claro em Bancos de Dados) ou se a porta dos fundos não tiver tranca (Falta de [[Cyber_MFA|MFA]] ou [[Cyber_Firewall_WAF|WAF]]), o estabelecimento é lacrado, processado e impedido de transacionar. Ele obriga que as melhores práticas arquiteturais saiam da teoria e virem sobrevivência de negócios.
+O [[Cyber_PCI_DSS]] atua como a **Vigilância Sanitária do [[Business_Ecommerce|E-commerce]]**. Não importa o quão inovador seja o seu restaurante ou o quão bonito seja o prato. Se a carne for armazenada crua e aberta na bancada (Dados em texto claro em Bancos de Dados) ou se a porta dos fundos não tiver tranca (Falta de [[Cyber_MFA|MFA]] ou [[Cyber_Firewall_WAF|WAF]]), o estabelecimento é lacrado, processado e impedido de transacionar. Ele obriga que as melhores práticas arquiteturais saiam da teoria e virem sobrevivência de negócios.
 
 #### 4. Pragmatismo Aplicado (Código/Implementação)
 No nível de servidor (ex: [[Ferramenta_Nginx|Nginx]]), a adoção do PCI-DSS força o banimento de qualquer protocolo matemático comprometido (SSLv3, TLS 1.0, TLS 1.1) em prol de comunicação blindada moderna:

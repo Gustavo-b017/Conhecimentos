@@ -30,4 +30,4 @@ logging host 192.168.10.50 # IP do servidor SIEM central
 
 #### 5. História do Conteúdo
 
-A prática evoluiu do caos do início dos anos 2000, onde os administradores de TI tinham que abrir 50 arquivos de texto diferentes (`.log`) em 50 servidores diferentes para entender como uma invasão ocorreu no dia anterior. A indústria percebeu que a compilação proativa desses logs (NTA - Network Traffic Analysis e SIEM) era a única forma de impedir a concretização do roubo no exato minuto em que o alarme de perímetro tocasse.
+A prática evoluiu do caos do início dos anos 2000, onde os administradores de TI tinham que abrir 50 arquivos de texto diferentes (`.log`) em 50 servidores diferentes para entender como uma invasão ocorreu no dia anterior. A indústria percebeu que a compilação proativa desses logs ([[Cyber_NTA|NTA]] - Network Traffic Analysis e SIEM) era a única forma de impedir a concretização do roubo no exato minuto em que o alarme de perímetro tocasse.

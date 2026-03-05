@@ -9,7 +9,7 @@ tags:
 ### Ferramenta_Nginx
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** O NGINX é um software de altíssima performance para infraestrutura web, operando primariamente como servidor HTTP, proxy reverso, balanceador de carga (Load Balancer) e terminador de criptografia SSL/TLS.
+**O que é:** O NGINX é um software de altíssima performance para infraestrutura web, operando primariamente como servidor [[Rede_HTTP|HTTP]], [[Rede_Proxy_Reverso|proxy reverso]], balanceador de carga ([[Infra_Load_Balancer|Load Balancer]]) e terminador de criptografia [[Rede_TLS|SSL/TLS]].
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 - **Como Funciona:** Diferente de servidores legados que criavam um processo ou *thread* inteiro de CPU para cada novo usuário que acessava o site, o NGINX trabalha de forma *event-driven* e assíncrona. Ele usa apenas um ou poucos *workers* (processos operários) para gerenciar centenas de milhares de conexões HTTP e HTTPS simultaneamente com uso mínimo de memória RAM.

@@ -12,7 +12,7 @@ tags:
 **O que é:** O Smishing (SMS Phishing) é a variação letal do Phishing executada exclusivamente através de mensagens de texto (SMS) ou aplicativos de mensageria móvel.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** Em vez de entupir caixas de e-mail, o criminoso envia mensagens curtas com links encurtados (bit.ly) fingindo ser alertas de bancos, pacotes retidos nos correios ou aprovações de crédito.
+- **Como Funciona:** Em vez de entupir caixas de e-mail, o criminoso envia mensagens curtas com links encurtados (bit.ly) fingindo ser alertas de bancos, pacotes retidos nos correios ou aprovações de crédito ([[Cyber_Phishing]]).
 - **O Problema que Resolve:** Para o atacante, contorna todos os [[Rede_Firewall|firewalls corporativos]] e filtros de e-mail institucionais ([[Cyber_Engenharia_Social_Spam|Anti-Spam]]), enviando o ataque diretamente para o dispositivo físico pessoal da vítima, que geralmente está fora da malha de proteção da TI da empresa.
 - **Visão Sênior (Vulnerabilidades/Escala):** A psicologia humana julga o SMS como um canal mais íntimo e autêntico que o e-mail. Além disso, a tela pequena do celular dificulta a auditoria visual da URL maliciosa. A vulnerabilidade corporativa extrema ocorre quando um funcionário usa o celular pessoal para acessar o ambiente de trabalho (BYOD) e clica em um Smishing, comprometendo a rede inteira.
 

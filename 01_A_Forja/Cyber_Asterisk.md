@@ -12,7 +12,7 @@ tags:
 Asterisk é um software open-source de PABX (Private Branch Exchange) que controla e roteia chamadas de telefonia digital ([[Rede_VoIP]]), sendo frequentemente abusado por criminosos para mascarar identidades em campanhas de fraude.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
-- **Como Funciona:** Transforma um computador ou servidor Linux comum em uma central telefônica complexa. Ele lida com filas de espera, gravação, correio de voz e roteamento SIP (Session Initiation Protocol).
+- **Como Funciona:** Transforma um computador ou servidor Linux comum em uma central telefônica complexa. Ele lida com filas de espera, gravação, correio de voz e roteamento [[Rede_Protocolo_SIP|SIP]] (Session Initiation Protocol).
 - **O Problema que Resolve:** Destruiu o monopólio bilionário do hardware proprietário de telefonia corporativa (da Cisco, Avaya), permitindo que qualquer empresa criasse uma central telefônica global via software gratuito.
 - **Visão Sênior (Vulnerabilidades/Escala):** Por ser extremamente flexível, o Asterisk não força autenticidade de origem. Um invasor usando um servidor Asterisk barato pode configurar o arquivo de plano de discagem (`extensions.conf`) para forjar o número de telefone que vai aparecer no visor do alvo ("[[Cyber_Spoofing|Caller ID Spoofing]]"), simulando ser o suporte da Microsoft ou o banco da vítima.
 

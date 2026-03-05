@@ -20,7 +20,7 @@ tags:
 O MITRE ATT&CK é o **Playbook (Livro de Jogadas) do Time Inimigo no Futebol Americano**. O técnico da defesa (o CISO) não tenta adivinhar o que o ataque vai fazer baseando-se na cor da chuteira do adversário (IoC). Ele estuda o Playbook do adversário, que diz: "Na 3ª descida, eles sempre fazem um passe curto pela lateral esquerda" (Comportamento/Tática). Sabendo disso, o técnico posiciona seus zagueiros (Firewall/EDR) exatamente naquela rota. 
 
 #### 4. Pragmatismo Aplicado (Código e Implementação)
-O MITRE dita a inteligência das ferramentas de detecção modernas (como as buscas no Microsoft Sentinel ou Splunk). Um analista procura uma técnica específica, como "T1059.001 - Spearphishing Attachment", usando a matriz como guia de consulta (KQL - Kusto Query Language):
+O MITRE dita a inteligência das ferramentas de detecção modernas (como as buscas no Microsoft Sentinel ou Splunk). Um analista procura uma técnica específica, como "T1059.001 - [[Cyber_Phishing_Spear|Spearphishing Attachment]]", usando a matriz como guia de consulta (KQL - Kusto Query Language):
 ```kusto
 # Consulta caçando o comportamento da Técnica MITRE T1059.001 (Anexo malicioso abrindo prompt de comando no Windows)
 DeviceProcessEvents
@@ -30,4 +30,4 @@ DeviceProcessEvents
 
 5. História do Conteúdo
 
-Criado em 2013 pela organização MITRE (a mesma corporação sem fins lucrativos que gerencia a lista global de CVEs - Common Vulnerabilities and Exposures). O objetivo original era documentar as táticas usadas em simulações de ataques no próprio ambiente interno da MITRE, provando que a indústria de segurança precisava de um idioma comum para descrever "o que o atacante faz depois que o alarme toca".
+Criado em 2013 pela organização MITRE (a mesma corporação sem fins lucrativos que gerencia a lista global de [[Cyber_CVE|CVEs]] - Common Vulnerabilities and Exposures). O objetivo original era documentar as táticas usadas em simulações de ataques no próprio ambiente interno da MITRE, provando que a indústria de segurança precisava de um idioma comum para descrever "o que o atacante faz depois que o alarme toca".

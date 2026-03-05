@@ -9,7 +9,7 @@ tags:
 ### Design_SOLID
 
 #### 1. O Axioma (A Definição Rígida)
-**O que é:** SOLID é o acrônimo mnemônico de cinco princípios fundamentais de design orientado a objetos (SRP, OCP, LSP, ISP e DIP) que governam a organização do código para torná-lo tolerante a mudanças, testável e fácil de manter em larga escala.
+**O que é:** SOLID é o acrônimo mnemônico de cinco princípios fundamentais de design [[Java_OOP|orientado a objetos]] (SRP, OCP, LSP, ISP e DIP) que governam a organização do código para torná-lo tolerante a mudanças, testável e fácil de manter em larga escala.
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Cada letra exige uma disciplina de software:
@@ -18,7 +18,7 @@ tags:
     *   *L (Substituição de Liskov):* Subclasses não podem trair a lógica da classe pai.
     *   *I (Segregação de Interface):* Interfaces gigantes devem ser quebradas em interfaces menores.
     *   *D (Inversão de Dependência):* Dependa de abstrações, não de implementações de concreto.
-*   **O Problema que Resolve:** O SOLID aniquila a "programação espaguete" e o código frágil, onde arrumar o sistema de faturamento na linha 200 quebra misteriosamente a tela de login na linha 500 devido ao acoplamento oculto e alta dependência.
+*   **O Problema que Resolve:** O SOLID aniquila a "programação espaguete" e o código frágil, onde arrumar o sistema de faturamento na linha 200 quebra misteriosamente a tela de login na linha 500 devido ao [[Arquitetura_Acoplamento|acoplamento]] oculto e alta dependência.
 *   **Visão Sênior (Vulnerabilidades/Escala):** O dogma absoluto do SOLID fragmenta o software em centenas de arquivos minúsculos que não fazem quase nada sozinhos. A "Inversão de Dependência" cega torna o debug doloroso, pois você entra numa Interface na IDE e não sabe imediatamente qual das 5 classes concretas está rodando aquele método em tempo de execução. O sênior sabe quando ignorar um princípio em favor da performance.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

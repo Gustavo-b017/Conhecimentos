@@ -5,8 +5,8 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 # O Guia das Feridas Emocionais
 #### Maior busca:
 * Dignidade
-* Respeito
-* Aceitação 
+* [[Virtude_Respeito|Respeito]]
+* [[Mindset_Aceitacao|Aceitação]]
 * Importância
 
 #### Crença:
@@ -28,7 +28,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 
 #### Maior busca:
 * Equilíbrio
-* Justiça
+* [[Virtude_Justica|Justiça]]
 * Reconhecimento
 
 #### Crença:
@@ -70,8 +70,8 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 ---
 
 #### Maior busca:
-* Confiança
-* Lealdade
+* [[Social_Confianca|Confiança]]
+* [[Virtude_Lealdade|Lealdade]]
 
 #### Crença:
 > " Eu quero confiar "
@@ -79,7 +79,7 @@ tags: [status/4_evergreen, tipo/conceito, contexto/mindset/psicologia, contexto/
 #### Maior dor:
 * Dor da **desilusão**
 * Ser enganado
-* Traição emocional
+* [[Social_Traicao|Traição]] emocional
 * Perder a confiança no outro
 * Perder a confiança no próprio julgamento
 #### [[Linguagem do amor]]:

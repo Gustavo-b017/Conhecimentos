@@ -29,4 +29,4 @@ ip dhcp snooping vlan 10
 
 5. História do Conteúdo
 
-Historicamente conhecida como o "Anexo A", a norma sofreu uma alteração massiva em 2022. O comitê da ISO percebeu que a versão antiga tinha 114 controles defasados e não refletia as ameaças modernas (como Ransomware e Cloud). Eles enxugaram para 93 controles agrupados em apenas 4 temas (Organizacional, Pessoal, Físico e Tecnológico), introduzindo novos controles focados em Inteligência de Ameaças (Threat Intelligence) e delegação segura em nuvem.
+Historicamente conhecida como o "Anexo A", a norma sofreu uma alteração massiva em 2022. O comitê da ISO percebeu que a versão antiga tinha 114 controles defasados e não refletia as ameaças modernas (como [[Cyber_Malware_Ransomware|Ransomware]] e [[Cyber_Cloud_Security|Cloud]]). Eles enxugaram para 93 controles agrupados em apenas 4 temas (Organizacional, Pessoal, Físico e Tecnológico), introduzindo novos controles focados em Inteligência de Ameaças ([[Cyber_Threat_Intelligence|Threat Intelligence]]) e delegação segura em nuvem.

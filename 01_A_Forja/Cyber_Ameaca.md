@@ -12,7 +12,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Opera como o vetor de ataque. Pode ser um agente humano (hacker, espião industrial, funcionário desatento), um artefato de software ([[Cyber_Malware_Ransomware|ransomware]], [[Cyber_Malware_Spyware|spyware]]) ou até um evento natural. Ela sonda o perímetro buscando ativamente a [[Cyber_Vulnerabilidade]].
-*   **O Problema que Resolve:** Classificar as ameaças através do processo de *Threat Modeling* elimina a defesa baseada em "achismos". Você para de construir muros genéricos e começa a colocar controles técnicos adequados ao que realmente ataca sua indústria.
+*   **O Problema que Resolve:** Classificar as ameaças através do processo de *Threat Modeling* elimina a defesa baseada em "achismos". Você para de construir muros genéricos e começa a colocar controles técnicos adequados ao que realmente ataca sua indústria ([[Cyber_Risco|Risco]]).
 *   **Visão Sênior (Vulnerabilidades/Escala):** Ameaças evoluem muito mais rápido do que a capacidade de correção de software (patching). A falha da alta gestão é queimar milhões de reais para se defender de ameaças alienígenas supercomplexas (Zero-days) e ter o banco de dados completamente sequestrado por uma ameaça trivial: um anexo de e-mail malicioso de [[Cyber_Phishing]] aberto pela equipe de recursos humanos.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)

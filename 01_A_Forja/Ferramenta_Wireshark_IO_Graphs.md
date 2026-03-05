@@ -13,7 +13,7 @@ tags:
 
 #### 2. A Desconstrução (Mecânica e Pontos de Falha)
 *   **Como Funciona:** Traça o tráfego como um gráfico de linhas contínuo. O eixo X é o tempo absoluto (em segundos) da gravação; o eixo Y mostra os Bytes ou Pacotes. Permite sobrepor cores diferentes utilizando filtros avançados (ex: Linha Verde para o tráfego total, Linha Vermelha sobreposta apenas para erros [[Rede_TCP|TCP]]).
-*   **O Problema que Resolve:** Evidencia ataques volumétricos e gargalos físicos de infraestrutura na força bruta. Sem esse gráfico, um ataque [[Cyber_Ataque_DDoS]] passaria como tráfego normal intenso nas linhas de texto. O gráfico expõe a "Parede de Volume", um pico quase vertical impossível de ser gerado legitimamente pelo tráfego humano.
+*   **O Problema que Resolve:** Evidencia ataques volumétricos e [[Infra_Gargalo|gargalos]] físicos de infraestrutura na força bruta. Sem esse gráfico, um ataque [[Cyber_Ataque_DDoS]] passaria como tráfego normal intenso nas linhas de texto. O gráfico expõe a "Parede de Volume" ([[Rede_Throughput|Throughput]] excessivo), um pico quase vertical impossível de ser gerado legitimamente pelo tráfego humano.
 *   **Visão Sênior (Vulnerabilidades/Escala):** A genialidade para os Blue Teams (defesa) e caçadores de anomalias é a capacidade de suavizar os gráficos utilizando o "Tick Interval" (frações de tempo). Observar a taxa de I/O em janelas de 1 segundo pode ocultar exfiltrações curtas; reduzir o cálculo do gráfico para 0.01 segundos revela micro-picos causados por malwares automatizados que operam em rajadas invisíveis aos olhos humanos.
 
 #### 3. As Sinapses (Conexões Livres e Interdisciplinares)
