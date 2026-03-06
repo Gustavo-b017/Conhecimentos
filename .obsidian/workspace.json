@@ -11,13 +11,284 @@
             "id": "15229fb4d8783142",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Rede_Stateless.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rede_Stateless"
+            }
+          },
+          {
+            "id": "6a55fe49b34890d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_SAST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_SAST"
+            }
+          },
+          {
+            "id": "83bae8f38136b673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_DAST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_DAST"
+            }
+          },
+          {
+            "id": "e98480b680ea628e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_IAST.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_IAST"
+            }
+          },
+          {
+            "id": "6fa8271d89fb09ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_RASP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_RASP"
+            }
+          },
+          {
+            "id": "dd340664e01f00f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_IaC_Scanning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_IaC_Scanning"
+            }
+          },
+          {
+            "id": "5f1dd61da5d83b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/DevSecOps_Secrets_Scanning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DevSecOps_Secrets_Scanning"
+            }
+          },
+          {
+            "id": "7bd56234718ebc01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_HashiCorp_Vault.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_HashiCorp_Vault"
+            }
+          },
+          {
+            "id": "05a09faaae6f0e04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Dynamic_Secrets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Dynamic_Secrets"
+            }
+          },
+          {
+            "id": "3da114b7b6570e8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Transit_Secrets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Transit_Secrets"
+            }
+          },
+          {
+            "id": "7d09cac500b6b9b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_CNAPP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_CNAPP"
+            }
+          },
+          {
+            "id": "beaeaf1e0e1f4894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_CSPM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_CSPM"
+            }
+          },
+          {
+            "id": "04f8d7114d5a1158",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_CWPP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_CWPP"
+            }
+          },
+          {
+            "id": "5bf2b07e8cce53c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_CIEM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_CIEM"
+            }
+          },
+          {
+            "id": "66163b01751bba8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Immutable_Infrastructure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Immutable_Infrastructure"
+            }
+          },
+          {
+            "id": "ba6d53003e9e4ae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Ataque_SSRF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Ataque_SSRF"
+            }
+          },
+          {
+            "id": "c7d651901c96c890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Ataque_XXE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Ataque_XXE"
+            }
+          },
+          {
+            "id": "db65d2a2597e45a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Ataque_XSS_Reflected.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Ataque_XSS_Reflected"
+            }
+          },
+          {
+            "id": "853f1d0f8db60d16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Ataque_XSS_Stored.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Ataque_XSS_Stored"
+            }
+          },
+          {
+            "id": "27e15dd15afddcff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_A_Forja/Cyber_Vulnerability_Chaining.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber_Vulnerability_Chaining"
             }
           }
-        ]
+        ],
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -49,7 +320,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tipo/receita",
+                "query": "stateless",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,36 +434,36 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false
     }
   },
-  "active": "15229fb4d8783142",
+  "active": "27e15dd15afddcff",
   "lastOpenFiles": [
-    "01_A_Forja/Mindset_Feridas_Emocionais_Master.md",
-    "01_A_Forja/Virtude_Respeito.md",
-    "01_A_Forja/Arquitetura_SOAP.md",
-    "01_A_Forja/Rede_SSL.md",
-    "01_A_Forja/Rede_TCP_3_Way_Handshake.md",
-    "00_Captura_e_Caos/Cyber.md",
-    "01_A_Forja/Rede_IPv4.md",
-    "01_A_Forja/Rede_TCP_IP.md",
-    "01_A_Forja/Cyber_Ataque_XSS.md",
-    "01_A_Forja/Rede_Digital_Twins_Emulation.md",
-    "01_A_Forja/Rede_Streaming_Telemetry.md",
-    "01_A_Forja/Rede_NetDevOps_CICD.md",
+    "01_A_Forja/Cyber_Ataque_XSS_Stored.md",
+    "01_A_Forja/Cyber_Vulnerability_Chaining.md",
+    "01_A_Forja/Cyber_Ataque_XSS_Reflected.md",
+    "01_A_Forja/Cyber_Ataque_XXE.md",
+    "01_A_Forja/Cyber_Ataque_SSRF.md",
+    "01_A_Forja/Cyber_Immutable_Infrastructure.md",
+    "01_A_Forja/Cyber_CIEM.md",
+    "01_A_Forja/Cyber_CWPP.md",
+    "01_A_Forja/Cyber_CSPM.md",
+    "01_A_Forja/Cyber_CNAPP.md",
+    "01_A_Forja/Cyber_Secret_Zero_Paradox.md",
+    "01_A_Forja/Cyber_Transit_Secrets.md",
+    "01_A_Forja/Cyber_Dynamic_Secrets.md",
+    "01_A_Forja/Cyber_HashiCorp_Vault.md",
+    "01_A_Forja/DevSecOps_Secrets_Scanning.md",
+    "01_A_Forja/DevSecOps_IaC_Scanning.md",
+    "01_A_Forja/DevSecOps_RASP.md",
+    "01_A_Forja/DevSecOps_IAST.md",
+    "01_A_Forja/DevSecOps_DAST.md",
+    "01_A_Forja/DevSecOps_SAST.md",
+    "01_A_Forja/Rede_Stateless.md",
+    "01_A_Forja/Arquitetura_REST.md",
+    "02_Constelacoes/MOC_A_Arquitetura_do_Caos_e_da_Ordem.md",
+    "01_A_Forja/Arquitetura_Circuit_Breaker.md",
+    "01_A_Forja/Arquitetura_API_Gateway.md",
+    "01_A_Forja/Algoritmo_Busca_Conceitos.md",
     "99_Arquivo_Morto/Estagio - Gustavo Bezerra Assumcao.pdf",
     "99_Arquivo_Morto/Estagio - Gustavo Bezerra Assumcao.docx.pdf",
-    "00_Captura_e_Caos/redes profundo.md",
-    "01_A_Forja/Cyber_Diameter.md",
-    "01_A_Forja/Cyber_SDA_SGT.md",
-    "01_A_Forja/Rede_GSLB.md",
-    "01_A_Forja/Rede_QoS_Avancado.md",
-    "01_A_Forja/Rede_P4_Lang.md",
-    "01_A_Forja/Rede_Network_Slicing.md",
-    "01_A_Forja/Rede_O_RAN.md",
-    "01_A_Forja/Rede_5G_CUPS_e_UPF.md",
-    "01_A_Forja/Rede_5G_SBA.md",
-    "01_A_Forja/Rede_TI_LFA.md",
-    "01_A_Forja/Rede_Flex_Algo.md",
-    "01_A_Forja/Rede_SRv6_uSID.md",
-    "01_A_Forja/Rede_Segment_Routing_SRv6.md",
     "02_Constelacoes/MOC A Ponte FIAP - Do Acadêmico ao Abismo Sênior",
     "refatorar_zettelkasten.py",
     "99_Arquivo_Morto/42--FRASES--IRRESISTÍVEIS--_20241003_093551_0000.pdf",
